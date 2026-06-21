@@ -1,9 +1,5 @@
 import logging
 import os
-SECRET_KEY = os.getenv("FLASK_SECRET_KEY")
-
-if not SECRET_KEY:
-    raise RuntimeError("FLASK_SECRET_KEY is not set")
 import re
 import requests
 import random
