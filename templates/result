@@ -1,0 +1,256 @@
+{% extends "base.html" %}
+
+{% block title %}Result | Travel Health Advisory{% endblock %}
+{% block body_class %}result-page{% endblock %}
+{% block page_class %}page-result{% endblock %}
+
+{% block content %}
+<div class="result-shell">
+    <a class="back-link" href="{{ url_for('assessment') }}">&larr; Back to assessment</a>
+
+    <section class="surface result-hero {{ result.risk_class }}">
+        <div class="result-hero-head">
+            <div>
+                <p class="eyebrow">Health & Environment Risk Prediction</p>
+                <h1>{{ result.risk_level }} Risk</h1>
+                <p class="result-summary">{{ result.risk_overview }}</p>
+                {% if result.is_realtime %}
+                <span class="live-data-badge">Live API Data (OpenWeather)</span>
+                {% else %}
+                <span class="live-data-badge offline">Historical Fallback Data</span>
+                {% endif %}
+            </div>
+
+            <div class="risk-gauge-container">
+                <div class="gauge-wrapper">
+                    <div class="gauge-body"></div>
+                    <div class="gauge-needle" style="transform: rotate({{ (result.risk_score * 18) - 90 }}deg);"></div>
+                    <div class="gauge-pivot"></div>
+                </div>
+                <div class="gauge-labels">
+                    <span class="gauge-label">Safe</span>
+                    <span class="gauge-label">Critical</span>
+                </div>
+                <div class="risk-score-display">
+                    <span class="score-num">{{ result.risk_score }}</span>
+                    <span class="score-label">Risk Index</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% if result.alt_place %}
+    <section class="surface alt-place-hero">
+        <div class="alt-place-content">
+            <h3>⚠️ This destination may not be safe for your profile.</h3>
+            <p>Based on your <strong>{{ result.disease }}</strong> condition, you might suffer health risks traveling to {{ result.destination_name }}.</p>
+            <div class="alt-recommendation">
+                <p class="eyebrow">Consider a safer nearby alternative</p>
+                <h2>{{ result.alt_place.city }} <span>({{ result.alt_place.tourist_place }})</span></h2>
+                <p>Enjoy a beautiful stay in the same state with a safer {{ result.alt_place.risk_level }} risk profile. Expected temp: {{ result.alt_place.temperature }}&deg;C.</p>
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+    <section class="metric-grid">
+        <article class="surface metric-card glass-panel">
+            <p class="metric-label">Temperature</p>
+            <h2>{{ result.temperature }}&deg;C</h2>
+            <p class="metric-note">Current conditions at destination.</p>
+        </article>
+
+        <article class="surface metric-card glass-panel">
+            <p class="metric-label">Humidity</p>
+            <h2>{{ result.humidity }}%</h2>
+            <p class="metric-note">Useful for comfort and hydration planning.</p>
+        </article>
+
+        <article class="surface metric-card glass-panel">
+            <p class="metric-label">AQI</p>
+            <h2>{{ result.aqi }}</h2>
+            <p class="metric-note">Air quality index based on real-time API.</p>
+        </article>
+
+        <article class="surface metric-card glass-panel">
+            <p class="metric-label">Wind Speed</p>
+            <h2>{{ result.wind_speed }} km/h</h2>
+            <p class="metric-note">Current wind behavior.</p>
+        </article>
+    </section>
+
+    <div class="result-layout">
+        <section class="surface result-main-panel glass-panel">
+            <div class="panel-head">
+                <div>
+                    <p class="eyebrow">Risk Factor Breakdown</p>
+                    <h2>Visualization</h2>
+                </div>
+            </div>
+            
+            <div class="risk-breakdown-cards">
+                <div class="risk-card">
+                    <div class="risk-card-icon medical-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                    </div>
+                    <div class="risk-card-content">
+                        <div class="risk-card-header">
+                            <span class="factor-name">Medical Risk</span>
+                            <span class="factor-value">{{ result.risk_breakdown.medical }}/10</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-bar medical-bar" style="width: {{ result.risk_breakdown.medical * 10 }}%"></div>
+                        </div>
+                        <p class="factor-desc">Vitals, Age & Disease severity</p>
+                    </div>
+                </div>
+
+                <div class="risk-card">
+                    <div class="risk-card-icon lifestyle-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <div class="risk-card-content">
+                        <div class="risk-card-header">
+                            <span class="factor-name">Lifestyle Risk</span>
+                            <span class="factor-value">{{ result.risk_breakdown.lifestyle }}/10</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-bar lifestyle-bar" style="width: {{ result.risk_breakdown.lifestyle * 10 }}%"></div>
+                        </div>
+                        <p class="factor-desc">Smoking & Alcohol habits</p>
+                    </div>
+                </div>
+
+                <div class="risk-card">
+                    <div class="risk-card-icon climate-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="M20 12h2"/><path d="m19.07 19.07-1.41-1.41"/><path d="M12 22v2"/><path d="m6.34 17.66-1.41 1.41"/><path d="M2 12h2"/><path d="m7.76 7.76-1.41-1.41"/><circle cx="12" cy="12" r="4"/></svg>
+                    </div>
+                    <div class="risk-card-content">
+                        <div class="risk-card-header">
+                            <span class="factor-name">Climate Risk</span>
+                            <span class="factor-value">{{ result.risk_breakdown.climate }}/10</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-bar climate-bar" style="width: {{ result.risk_breakdown.climate * 10 }}%"></div>
+                        </div>
+                        <p class="factor-desc">Temperature & Humidity</p>
+                    </div>
+                </div>
+
+                <div class="risk-card">
+                    <div class="risk-card-icon environment-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 18h8"/><path d="M3 22h18"/><path d="M9 22v-4"/><path d="M17 22v-4"/><path d="M7 2h10l2 10H5L7 2Z"/><path d="M12 2v10"/></svg>
+                    </div>
+                    <div class="risk-card-content">
+                        <div class="risk-card-header">
+                            <span class="factor-name">Environment Risk</span>
+                            <span class="factor-value">{{ result.risk_breakdown.environment }}/10</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-bar environment-bar" style="width: {{ result.risk_breakdown.environment * 10 }}%"></div>
+                        </div>
+                        <p class="factor-desc">AQI, Altitude & UV</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-head">
+                <div>
+                    <p class="eyebrow">Destination summary</p>
+                    <h2>{{ result.destination_name }}</h2>
+                </div>
+            </div>
+
+            <p class="section-text">You are evaluating travel plans for <strong>{{ result.destination_name }}</strong> as someone previously diagnosed with <strong>{{ result.disease }}</strong> ({{ result.severity }} Severity).</p>
+
+            <div class="disease-block">
+                <h3>Required Medications</h3>
+                <div class="chip-group">
+                    {% if result.medications and result.medications[0] != "None" %}
+                        {% for med in result.medications %}
+                        <span class="disease-chip med-chip">{{ med }}</span>
+                        {% endfor %}
+                    {% else %}
+                        <p class="section-text muted-text">No specific medications are required for your profile. Maintain your routine health kit.</p>
+                    {% endif %}
+                </div>
+            </div>
+            
+            <div class="disease-block">
+                <h3>Safety Tips & Advisories</h3>
+                <ul class="advice-list">
+                    {% for item in result.safety_tips %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
+            <div class="disease-block">
+                <h3>Health Precautions to Observe</h3>
+                <ul class="advice-list advice-list-muted">
+                    {% for item in result.precautions %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+        </section>
+
+        <aside class="surface advice-panel glass-panel">
+            <div class="advice-group compact-group">
+                <p class="eyebrow">Destination Disease Potential</p>
+                <h2>Environment Risks</h2>
+                <ul class="advice-list">
+                    {% if result.potential_threats %}
+                        {% for threat in result.potential_threats %}
+                        <li><strong>{{ threat }}</strong> (Climate-linked)</li>
+                        {% endfor %}
+                    {% else %}
+                        <li>No acute climate-linked health threats detected.</li>
+                    {% endif %}
+                </ul>
+            </div>
+
+            <div class="advice-group compact-group" style="margin-top: 24px;">
+                <p class="eyebrow">Your Health Profile</p>
+                <h2>Submitted inputs</h2>
+                <dl class="profile-list">
+                    <div>
+                        <dt>Disease</dt>
+                        <dd><strong>{{ form_data.disease }}</strong></dd>
+                    </div>
+                    <div>
+                        <dt>Destination</dt>
+                        <dd>{{ form_data.destination }}</dd>
+                    </div>
+                    <div>
+                        <dt>Travel date</dt>
+                        <dd>{{ form_data.travel_date }}</dd>
+                    </div>
+                    <div>
+                        <dt>Age</dt>
+                        <dd>{{ form_data.age }}</dd>
+                    </div>
+                    <div>
+                        <dt>BMI</dt>
+                        <dd>{{ form_data.bmi }}</dd>
+                    </div>
+                    <div>
+                        <dt>Vitals</dt>
+                        <dd>
+                            {% if form_data.smoking == 'Yes' %}Smoker{% endif %}
+                            {% if form_data.alcohol == 'Yes' %}{% if form_data.smoking == 'Yes' %}, {% endif %}Alcohol User{% endif %}
+                            {% if form_data.smoking != 'Yes' and form_data.alcohol != 'Yes' %}None{% endif %}
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </aside>
+    </div>
+
+    <div class="result-actions">
+        <a class="btn btn-secondary glass-btn" href="{{ url_for('assessment') }}">Edit assessment</a>
+        <a class="btn btn-primary premium-btn" href="{{ url_for('logout') }}">Logout</a>
+    </div>
+</div>
+{% endblock %}
