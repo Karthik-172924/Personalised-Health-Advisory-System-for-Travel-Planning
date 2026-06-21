@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}History | Travel Health Advisory{% endblock %}
+{% block body_class %}history-page{% endblock %}
+{% block page_class %}page-history{% endblock %}
+
+{% block content %}
+<section class="surface page-panel history-shell">
+    <div class="page-head">
+        <div>
+            <p class="eyebrow">Assessment history</p>
+            <h1>Your past travel health reports</h1>
+            <p class="section-text">Review previous assessments, risk outcomes, and travel notes.</p>
+        </div>
+        <a class="btn btn-secondary" href="{{ url_for('assessment') }}">New assessment</a>
+    </div>
+
+    {% if records %}
+    <div class="history-grid">
+        {% for record in records %}
+        <article class="surface history-card">
+            <div class="history-card-top">
+                <div>
+                    <p class="history-date">{{ record.submitted_at }}</p>
+                    <h2>{{ record.destination }}</h2>
+                </div>
+                <span class="history-badge history-{{ record.risk_level | lower }}">{{ record.risk_level }}</span>
+            </div>
+
+            <dl class="history-meta">
+                <div>
+                    <dt>Risk score</dt>
+                    <dd>{{ record.risk_score }}</dd>
+                </div>
+                <div>
+                    <dt>Travel date</dt>
+                    <dd>{{ record.travel_date }}</dd>
+                </div>
+            </dl>
+
+            <p class="section-text history-summary">{{ record.summary }}</p>
+            {% if record.notes %}
+            <div class="history-notes">
+                <p class="eyebrow">Trip notes</p>
+                <p>{{ record.notes }}</p>
+            </div>
+            {% endif %}
+            
+            <div style="margin-top: auto; padding-top: 20px;">
+                <a href="{{ url_for('view_result', record_id=record.id) }}" class="btn btn-secondary glass-btn btn-wide">View Detailed Report</a>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="empty-state surface empty-history">
+        <h2>No assessments yet</h2>
+        <p>Start an assessment to save your travel health history and see past results here.</p>
+        <a class="btn btn-primary" href="{{ url_for('assessment') }}">Start assessment</a>
+    </div>
+    {% endif %}
+</section>
+{% endblock %}
