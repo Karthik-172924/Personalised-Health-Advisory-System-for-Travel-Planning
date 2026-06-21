@@ -1,5 +1,9 @@
 import logging
 import os
+SECRET_KEY = os.getenv("FLASK_SECRET_KEY")
+
+if not SECRET_KEY:
+    raise RuntimeError("FLASK_SECRET_KEY is not set")
 import re
 import requests
 import random
@@ -14,6 +18,7 @@ from pymongo import MongoClient
 from bson import ObjectId
 from werkzeug.exceptions import HTTPException
 from werkzeug.security import check_password_hash, generate_password_hash
+
 
 from ml_model import predict_risk_level
 
