@@ -9,7 +9,6 @@ from datetime import datetime, timezone
 from functools import wraps
 from pathlib import Path
 
-from dotenv import load_dotenv
 from flask import Flask, has_request_context, redirect, render_template, request, session, url_for
 from pymongo import MongoClient
 from bson import ObjectId
@@ -18,14 +17,35 @@ from werkzeug.security import check_password_hash, generate_password_hash
 
 from ml_model import predict_risk_level
 
-load_dotenv()
+from dotenv import load_dotenv
+load_dotenv(override=True)   # 🔥 IMPORTANT FIX
+
 BASE_DIR = Path(__file__).resolve().parent
-MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb://localhost:27017")
-MONGODB_DB = os.environ.get("MONGODB_DB", "travel_health_advisory")
+
+# MongoDB config (NO LOCALHOST FALLBACK)
+MONGODB_URI = os.getenv("MONGODB_URI")
+MONGODB_DB = os.getenv("MONGODB_DB")
+
+if not MONGODB_URI:
+    raise RuntimeError("❌ MONGODB_URI missing in .env file")
+
+if not MONGODB_DB:
+    MONGODB_DB = "travel_health_advisory"
+
+# MongoDB connection
 client = MongoClient(MONGODB_URI, serverSelectionTimeoutMS=5000)
+
+# Test connection early (VERY IMPORTANT)
+try:
+    client.admin.command("ping")
+    print("✅ MongoDB Atlas Connected Successfully")
+except Exception as e:
+    raise RuntimeError(f"❌ MongoDB connection failed: {e}")
+
 db = client[MONGODB_DB]
 users_collection = db["users"]
 assessments_collection = db["assessments"]
+
 
 HEALTH_DF = pd.read_csv(BASE_DIR / 'health.csv').fillna('')
 TOURIST_DF = pd.read_csv(BASE_DIR / 'tourist_places.csv').fillna('')
@@ -217,8 +237,6 @@ def parse_form(form) -> dict:
     }
 
 def get_realtime_weather(city: str) -> dict:
-    from dotenv import load_dotenv
-    load_dotenv(override=True)
     
     fallback = TOURIST_DB.get(city, {})
     api_key = os.environ.get("OPENWEATHER_API_KEY", "")
