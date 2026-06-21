@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+
+{% block title %}Top Destinations | Travel Health Advisory{% endblock %}
+{% block page_class %}page-destinations{% endblock %}
+
+{% block content %}
+<div class="destinations-hero">
+    <p class="eyebrow">Travel Guide</p>
+    <h1>Top Visited Tourist Places</h1>
+    <p class="hero-subtitle">Explore a comprehensive list of India's most iconic tourist destinations, categorized by state for your convenience.</p>
+</div>
+
+<div class="places-container">
+    <div class="places-grid">
+        {% for place in places %}
+        <div class="place-card surface">
+            <div class="place-info">
+                <h3>{{ place.place }}</h3>
+                <span class="state-badge">{{ place.state }}</span>
+            </div>
+            <div class="place-actions">
+                <a href="{{ url_for('assessment', city=place.city if place.city else place.place) }}" class="btn-assess">Check Safety &rarr;</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<style>
+.destinations-hero {
+    text-align: center;
+    padding: 60px 20px 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    color: var(--muted);
+    margin-top: 16px;
+    line-height: 1.6;
+}
+
+.places-container {
+    max-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+}
+
+.places-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.place-card {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.2s ease;
+    border: 1px solid var(--panel-border);
+}
+
+.place-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    border-color: var(--accent-glow);
+}
+
+.place-info h3 {
+    margin: 0 0 8px;
+    font-size: 1.25rem;
+    color: var(--text);
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.state-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: var(--panel-strong);
+    color: var(--muted-strong);
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 999px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.place-actions {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--panel-border);
+}
+
+.btn-assess {
+    font-size: 0.85rem;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: gap 0.2s ease;
+}
+
+.btn-assess:hover {
+    gap: 10px;
+    color: var(--accent-soft);
+}
+
+@media (max-width: 600px) {
+    .places-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+{% endblock %}
