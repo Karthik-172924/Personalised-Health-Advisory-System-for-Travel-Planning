@@ -1,0 +1,37 @@
+{
+  "name": "Travel Health Advisory System",
+  "short_name": "TravelHealth",
+  "description": "Smart AI-powered health risk assessment for your travels.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/static/img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "travel"],
+  "shortcuts": [
+    {
+      "name": "New Assessment",
+      "url": "/assessment",
+      "icons": [{ "src": "/static/img/icons/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "View Dashboard",
+      "url": "/dashboard",
+      "icons": [{ "src": "/static/img/icons/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

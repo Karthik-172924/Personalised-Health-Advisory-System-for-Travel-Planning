@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Travel Health Advisory{% endblock %}</title>
+    <link rel="stylesheet" href="{{ asset_url('css/style.css') }}">
+    <link rel="manifest" href="/static/manifest.json">
+    <meta name="theme-color" content="#0ea5e9">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="/static/img/icons/icon-192x192.png">
+</head>
+<body class="{% block body_class %}{% endblock %}">
+    <div class="site-background" aria-hidden="true">
+        <div class="glow glow-left"></div>
+        <div class="glow glow-right"></div>
+        <div class="glow glow-center"></div>
+    </div>
+
+    <div class="site-shell">
+        <header class="site-header" id="site-header">
+            <nav class="site-nav">
+                <a class="brand" href="{{ url_for('landing') }}">Travel Health</a>
+
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+
+                <div class="nav-links" id="nav-links">
+                    {% if current_user %}
+                    <a href="{{ url_for('dashboard') }}" class="nav-link">Dashboard</a>
+                    <a href="{{ url_for('assessment') }}" class="nav-link">Assessment</a>
+                    <a href="{{ url_for('history') }}" class="nav-link">History</a>
+                    <a href="{{ url_for('top_destinations') }}" class="nav-link">Top Places</a>
+                    <a href="{{ url_for('help_page') }}" class="nav-link">Help</a>
+                    <span class="user-pill">{{ current_user }}</span>
+                    <a href="{{ url_for('logout') }}" class="nav-link nav-link-primary">Logout</a>
+                    {% else %}
+                    <a href="{{ url_for('top_destinations') }}" class="nav-link">Top Places</a>
+                    <a href="{{ url_for('help_page') }}" class="nav-link">Help</a>
+                    <a href="{{ url_for('login') }}" class="nav-link">Login</a>
+                    <a href="{{ url_for('signup') }}" class="nav-link nav-link-primary">Sign up</a>
+                    {% endif %}
+                </div>
+            </nav>
+        </header>
+
+        <main class="page-wrap {% block page_class %}{% endblock %}">
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ asset_url('js/app.js') }}"></script>
+    {% block scripts %}{% endblock %}
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/static/sw.js')
+                    .then(reg => console.log('Service Worker registered:', reg.scope))
+                    .catch(err => console.log('Service Worker registration failed:', err));
+            });
+        }
+    </script>
+</body>
+</html>
