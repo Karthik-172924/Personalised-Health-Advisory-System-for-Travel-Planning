@@ -1,1 +1,901 @@
-
+disease_name,severity,city,temperature,humidity,wind_speed,uv_index,aqi,age,bmi,smoking,alcohol,risk_level
+Osteoporosis,High,Delhi,5,69,12,8,152.96187558293786,40,37.6,No,No,High
+Ringworm,High,Haridwar,34,63,29,4,158.974772160204,32,21.1,No,Yes,Moderate
+Hepatitis,Moderate,Mysore,11,58,17,3,103.57780970066985,41,27.3,Yes,Yes,Moderate
+Bronchial Infection,High,Manali,11,74,16,9,167.66111596953525,23,30.9,Yes,Yes,Critical
+Eye Infection,High,Hyderabad,13,73,22,9,82.1881411611749,61,32.9,Yes,Yes,Moderate
+Diabetes,Low,Madurai,26,57,6,3,117.68401185053199,39,39.5,Yes,Yes,Moderate
+IBS,Moderate,Tawang,31,71,28,1,120.86138097822838,65,33.9,No,No,Low
+Multiple Sclerosis,Low,Munnar,7,43,26,5,58.75688616217278,64,26.3,Yes,No,Low
+Ear Infection,Low,Madurai,36,28,16,3,126.19495001976966,6,33.6,Yes,No,Moderate
+Celiac Disease,High,Kochi,21,44,24,6,41.917654661243844,40,20.0,Yes,No,Low
+Arthritis,Low,Puri,20,72,19,9,47.94646603430586,80,32.3,Yes,Yes,Low
+Anemia,High,Srinagar,21,31,23,11,85.28389816882299,39,29.7,No,No,Low
+Osteoporosis,High,Jim Corbett,19,29,22,10,91.69159816016531,72,18.5,No,Yes,Moderate
+Altitude Sickness,Low,Agra,11,24,35,7,117.39195947058558,76,30.3,Yes,No,Low
+Pancreatitis,High,Udaipur,26,21,14,5,112.72237319580549,71,29.7,No,No,Low
+Depression,Low,Khajuraho,6,23,31,10,163.285349999019,64,17.5,Yes,Yes,Moderate
+Varicose Veins,Low,Lakshadweep,10,21,2,2,131.7285857091082,64,20.4,No,Yes,Low
+,,Delhi,13,73,11,6,97.57847490333494,11,18.3,No,Yes,Low
+Neck Pain,Moderate,Delhi,13,73,11,6,140.79024104358876,6,29.5,Yes,No,Moderate
+Stroke,Moderate,Shimla,26,79,5,2,114.81591520892164,72,33.2,No,Yes,Low
+Hypertension,Moderate,Aurangabad,39,45,5,7,46.479073629842844,30,25.4,No,No,Low
+Hypertension,High,Amritsar,27,30,14,6,96.19909796267393,73,17.8,No,Yes,Moderate
+Gastritis,Moderate,Delhi,6,35,11,2,98.00665235946325,6,19.4,No,Yes,Low
+Rabies,Moderate,Jaipur,22,75,16,5,112.02309766575978,63,39.6,Yes,No,Moderate
+Gastritis,Moderate,Tawang,18,24,6,6,53.134685739942626,18,19.3,Yes,No,Low
+Osteoporosis,High,Rishikesh,17,29,33,9,124.0980848092353,52,33.2,Yes,No,Moderate
+Astigmatism,Moderate,Varanasi,39,39,9,6,90.60227202989353,70,20.7,Yes,No,High
+Malaria,Low,Tirupati,20,61,16,3,76.51163248015962,16,38.2,Yes,Yes,Low
+Lyme Disease,High,Leh,45,38,13,1,122.7662393310634,33,39.7,Yes,No,High
+Osteoporosis,High,Goa,34,64,4,6,116.67355256859736,18,30.3,Yes,Yes,Moderate
+Epilepsy,High,Haridwar,31,25,7,1,73.89244213023906,11,26.0,No,Yes,Moderate
+Osteoporosis,High,Darjeeling,32,58,12,10,100.9900569977548,45,18.8,Yes,No,Moderate
+Diabetes,Moderate,Srinagar,13,74,8,3,94.74933004845315,10,21.1,No,Yes,Low
+Vitamin D Deficiency,Moderate,Kochi,34,93,22,2,88.46043782372209,8,15.8,Yes,Yes,Moderate
+Gastritis,High,Delhi,18,78,16,3,101.2231748221159,76,37.1,Yes,No,Moderate
+Rabies,Low,Kaziranga,14,60,34,6,116.7300609936025,22,35.0,No,No,Low
+Pneumonia,High,Jim Corbett,33,93,18,3,137.92060742386525,11,25.2,No,Yes,Moderate
+Kidney Disease,High,Ooty,10,91,11,10,99.31319957045761,23,36.7,No,No,Moderate
+Back Pain,Low,Mysore,16,95,30,11,61.8107978058367,41,16.1,No,Yes,Moderate
+Rabies,High,Hyderabad,21,52,34,7,167.42855859075337,52,26.1,No,No,Low
+HIV/AIDS,Low,Somnath,13,85,18,3,103.87629963165415,11,38.7,Yes,No,Moderate
+Appendicitis,High,Jaipur,28,34,32,11,95.11054370119672,15,23.4,Yes,Yes,Moderate
+Flu,High,Jaipur,25,23,6,9,72.43583962025475,26,20.7,Yes,Yes,Moderate
+Eye Infection,High,Hampi,7,67,17,1,74.68361176907071,25,22.4,Yes,No,Low
+Appendicitis,Moderate,Agra,38,32,27,6,95.84877353530696,46,20.1,Yes,Yes,Moderate
+Alzheimer's,Low,Tawang,45,56,33,5,92.26064089071548,39,20.7,No,No,Low
+Depression,Low,Munnar,17,47,26,4,90.82519339013018,31,31.4,Yes,No,Low
+Parkinson's Disease,High,Leh,21,83,7,4,123.17932137038405,23,29.6,No,No,Low
+Vitamin D Deficiency,Moderate,Haridwar,34,63,29,4,93.50478559003146,16,20.6,Yes,No,Low
+Thyroid Disorder,High,Chennai,17,29,19,7,20.0,76,34.6,Yes,Yes,Moderate
+Vitamin B12 Deficiency,Low,Lakshadweep,40,54,2,10,20.83658115294935,16,16.1,Yes,No,Moderate
+Ear Infection,Low,Rishikesh,7,90,27,9,64.55680038950149,53,37.5,Yes,Yes,Moderate
+Neck Pain,Moderate,Amritsar,29,33,29,9,20.0,33,30.7,No,Yes,Low
+Celiac Disease,Moderate,Delhi,5,32,27,5,192.81040609085397,27,15.8,No,No,Low
+Vitamin B12 Deficiency,Low,Somnath,20,78,25,4,100.41809599896062,24,31.0,No,Yes,Low
+Allergy,Low,Kolkata,31,82,34,9,74.25946400414202,67,17.1,No,Yes,Low
+Skin Infection,Moderate,Hampi,7,78,10,4,185.0029525947329,39,18.1,No,No,Low
+Hepatitis,Moderate,Mumbai,41,93,15,9,78.8021388567943,26,30.6,No,Yes,Moderate
+Ear Infection,Moderate,Aurangabad,34,53,29,7,119.78113968279904,57,27.2,Yes,No,Low
+Neck Pain,Moderate,Ahmedabad,43,42,19,1,119.94588728032542,8,28.7,Yes,No,Moderate
+Scabies,Moderate,Munnar,27,90,29,1,91.99128309805441,24,25.3,No,Yes,Low
+Deep Vein Thrombosis,Moderate,Kanyakumari,26,65,8,4,82.14498395462589,40,17.3,No,No,Low
+Bronchial Infection,High,Varanasi,18,58,11,3,101.34395717409943,7,18.6,No,No,High
+Insomnia,High,Madurai,45,79,28,5,140.70592920299617,10,22.2,Yes,No,High
+Typhoid,High,Mumbai,41,55,20,3,95.7639312550771,41,17.3,No,Yes,Moderate
+Bronchitis,Low,Aurangabad,28,93,14,10,135.43248685982581,15,36.8,Yes,Yes,Critical
+Stroke,Moderate,Ahmedabad,15,25,15,6,72.8722553566936,69,38.6,Yes,Yes,Moderate
+Skin Infection,High,Hampi,44,48,17,1,87.8366888280552,70,38.6,No,Yes,Critical
+Heart Disease,Moderate,Haridwar,21,42,15,10,58.790654731246335,52,33.7,Yes,No,Low
+Celiac Disease,Low,Puri,20,74,32,6,63.78468373709089,16,17.8,No,Yes,Low
+Malaria,Moderate,Kolkata,6,60,3,4,104.79911945658513,38,38.1,Yes,No,Moderate
+Chickenpox,High,Hampi,33,44,2,11,178.30318128507503,48,39.7,No,No,Moderate
+Malaria,High,Varanasi,43,25,31,7,67.70270030911661,63,18.3,No,No,Moderate
+Bronchitis,High,Srinagar,24,80,34,3,153.393420098167,80,18.9,Yes,No,Critical
+Cholera,Moderate,Rishikesh,20,23,32,9,147.21924350742697,80,33.5,No,No,Low
+Liver Disease,Moderate,Hyderabad,38,92,31,3,84.03393721888668,46,24.6,Yes,No,High
+Skin Infection,High,Cherrapunji,23,69,15,4,148.32163676822344,14,35.1,No,No,Low
+Appendicitis,High,Chennai,15,22,3,8,136.93290364878482,42,23.6,No,Yes,Low
+Heat Stroke,Moderate,Goa,29,48,4,9,105.97216147991018,32,26.6,Yes,Yes,Moderate
+Rabies,Low,Somnath,24,87,26,9,170.7682113701593,56,29.4,Yes,No,Moderate
+IBS,High,Mumbai,21,25,5,3,120.2640557959526,42,32.8,No,No,Low
+Neck Pain,Low,Varanasi,27,75,20,4,59.59774144573596,30,29.9,No,Yes,Low
+Multiple Sclerosis,Moderate,Amritsar,17,81,10,4,135.1917570036357,71,28.4,Yes,No,Moderate
+Bronchial Infection,Moderate,Hampi,31,53,34,6,133.31774068650313,65,24.4,No,No,Moderate
+Psoriasis,High,Agra,23,93,32,9,60.04580293073454,31,38.8,No,No,High
+Back Pain,High,Amritsar,20,59,22,10,61.21658330563411,8,27.1,Yes,Yes,Moderate
+Heat Exhaustion,Low,Mumbai,11,58,22,8,91.41383915963458,14,24.0,Yes,No,Low
+Gastritis,Low,Manali,22,52,19,6,90.53690314095721,9,23.9,Yes,No,Low
+Anemia,Low,Goa,15,82,33,6,146.49956345669648,30,32.0,Yes,No,Low
+Anemia,Low,Delhi,38,73,20,4,87.07837512466034,24,15.2,No,No,Low
+Arthritis,Moderate,Leh,26,32,28,9,176.94643767069056,22,18.8,No,Yes,Low
+Epilepsy,Moderate,Delhi,43,94,15,10,160.65151310440092,27,26.1,Yes,No,High
+Dengue,Low,Hyderabad,31,71,18,4,58.76396206869454,77,21.0,No,No,Low
+Cold,Moderate,Varanasi,37,31,8,1,131.84412664928266,80,22.3,Yes,Yes,High
+Heart Disease,High,Tirupati,41,52,18,3,154.8452395312534,43,28.3,No,Yes,Moderate
+Vitamin D Deficiency,High,Jaipur,24,82,26,9,120.78909287421885,71,21.1,No,No,Low
+Lyme Disease,High,Jaipur,28,52,4,7,136.24782266768085,61,34.0,No,Yes,Low
+Heat Exhaustion,High,Tirupati,5,66,12,4,103.78366969970854,41,31.9,Yes,No,Moderate
+Dehydration,Low,Gangtok,6,32,14,1,134.12435785163174,59,29.0,Yes,No,Low
+Heart Disease,Moderate,Agra,13,68,21,10,142.90919806292442,58,22.5,No,No,Low
+Migraine,High,Amritsar,13,83,6,10,152.20569749690796,68,29.0,No,Yes,Moderate
+Pancreatitis,Moderate,Tirupati,23,39,9,1,128.522735684486,12,38.6,Yes,No,Moderate
+Epilepsy,Moderate,Mumbai,7,39,10,8,115.9576322080425,14,38.9,No,No,Low
+Kidney Disease,Low,Amritsar,17,32,12,5,108.78899003620366,71,26.5,Yes,No,Low
+Ulcer,Low,Ooty,12,60,24,6,32.69391943107722,52,29.1,No,No,Low
+Epilepsy,Moderate,Udaipur,18,66,3,2,117.9630602537353,65,23.7,No,No,Low
+Obesity,Moderate,Mumbai,26,65,8,9,61.19193964526702,7,15.1,No,No,Low
+Chickenpox,Low,Leh,24,40,29,2,100.31567614650761,60,21.5,No,Yes,Low
+Food Poisoning,Moderate,Delhi,36,74,15,10,175.1687611328607,5,30.9,Yes,No,High
+Tuberculosis,High,Mumbai,21,77,20,2,55.13641232854566,63,16.8,Yes,Yes,Moderate
+Obesity,Moderate,Leh,40,42,26,6,127.43998018408374,61,32.6,Yes,No,Moderate
+Dehydration,Low,Tirupati,20,59,27,1,103.34384905384782,20,31.2,Yes,No,Low
+Polio,High,Goa,26,22,29,2,93.91602892199889,77,33.8,Yes,Yes,Moderate
+Gastritis,High,Aurangabad,19,66,2,11,130.50738197232621,62,25.0,No,Yes,Moderate
+Celiac Disease,Moderate,Kanyakumari,30,37,29,7,181.75962054427544,40,15.2,No,Yes,Moderate
+Hypertension,Low,Chennai,33,62,20,8,121.23122143437644,46,22.6,Yes,Yes,Low
+Obesity,Low,Aurangabad,32,86,18,8,42.22728692338579,68,22.9,No,Yes,Low
+Pneumonia,High,Tawang,13,87,13,5,52.89308251319456,64,37.9,No,No,Moderate
+Obesity,Moderate,Shimla,35,55,34,2,118.83349553808489,6,39.1,No,Yes,Moderate
+Neck Pain,High,Lakshadweep,28,56,28,3,131.0982429635058,62,30.5,No,Yes,Low
+Multiple Sclerosis,Low,Hyderabad,44,25,29,9,62.11696490553855,41,26.4,No,Yes,Low
+Allergy,Low,Goa,26,22,29,2,102.00403456848237,49,22.7,No,Yes,Moderate
+Vitamin D Deficiency,High,Lakshadweep,36,76,30,2,130.2458938045268,30,33.7,No,Yes,Moderate
+Malaria,Moderate,Somnath,19,80,29,7,115.61832588570644,22,34.5,Yes,No,Low
+Psoriasis,Moderate,Ooty,20,21,29,4,163.71931547293548,44,33.3,No,Yes,Low
+Cancer,Moderate,Kochi,18,57,16,3,82.66213965378302,68,30.9,Yes,Yes,Moderate
+Measles,High,Puri,21,82,16,6,151.35179703035698,7,21.7,Yes,Yes,High
+Migraine,High,Munnar,38,69,8,8,97.03290029432709,70,26.4,No,No,High
+Heat Exhaustion,Moderate,Agra,31,23,34,9,70.0249532689898,77,21.1,No,Yes,Low
+Typhoid,High,Tirupati,10,59,16,2,88.29814565760212,39,26.1,No,No,Low
+Heat Stroke,High,Agra,20,64,9,4,94.58971808703095,21,33.6,No,Yes,Low
+HIV/AIDS,High,Delhi,39,60,30,8,94.50110960565885,10,22.6,Yes,Yes,Moderate
+Altitude Sickness,High,Shillong,13,60,20,5,171.30981930024598,50,29.6,No,No,Low
+Heart Disease,High,Cherrapunji,31,28,20,10,53.24243945666582,31,34.3,Yes,No,Moderate
+Liver Disease,Moderate,Puri,5,93,13,10,103.01648428125763,25,23.6,No,No,Low
+Fungal Infection,Low,Puri,20,72,19,9,85.34938808408327,27,28.0,No,No,Low
+Bronchial Infection,Moderate,Jaipur,20,61,18,1,149.73537724142375,53,25.2,No,Yes,Moderate
+Insomnia,High,Leh,37,36,10,3,70.60963896259176,58,25.6,No,No,Low
+Parkinson's Disease,Low,Puri,31,64,34,8,57.57327540353579,59,23.6,Yes,No,Low
+Ear Infection,Low,Jim Corbett,37,82,22,11,88.5068743265284,20,16.3,No,No,Low
+Heat Exhaustion,Moderate,Darjeeling,24,57,18,3,50.77964276722645,43,32.2,Yes,No,Low
+Ear Infection,Low,Aurangabad,7,88,31,9,90.76908919438071,9,39.3,Yes,Yes,Moderate
+Food Poisoning,High,Kaziranga,30,47,13,10,135.9275834342095,77,35.1,Yes,Yes,High
+Rabies,Low,Madurai,14,39,9,10,52.52933374239325,20,15.3,Yes,No,Low
+Gastritis,High,Cherrapunji,32,84,15,8,133.58597225826549,41,21.3,Yes,Yes,Moderate
+Anemia,High,Kanyakumari,12,80,23,1,136.10792050057745,20,37.7,Yes,Yes,Moderate
+Kidney Disease,Moderate,Delhi,45,30,15,9,76.22809410820517,43,32.1,No,Yes,High
+Neck Pain,Moderate,Hampi,7,78,10,4,69.05567281176356,78,31.7,No,Yes,Low
+Cholera,Moderate,Agra,43,45,22,6,86.87911311069601,11,15.1,Yes,Yes,High
+Asthma,Moderate,Somnath,38,63,13,7,138.87439551710537,63,36.1,Yes,No,High
+Flu,Low,Amritsar,10,58,21,2,107.97679286265081,65,31.7,No,No,Low
+Kidney Disease,High,Tawang,34,72,8,10,151.2382437988202,38,28.0,Yes,No,Moderate
+Multiple Sclerosis,Low,Tawang,45,64,10,7,102.55569234614423,24,37.2,Yes,No,Moderate
+Obesity,Moderate,Kolkata,11,93,26,8,155.43820763598364,13,20.0,No,Yes,Moderate
+Parkinson's Disease,Low,Amritsar,16,28,16,9,84.11256309449034,74,24.7,No,No,Low
+Eye Infection,Low,Delhi,23,89,27,6,144.5124602755741,71,36.2,Yes,Yes,Moderate
+Leprosy,High,Srinagar,38,41,4,7,125.6638106392895,77,31.2,No,Yes,High
+Bronchial Infection,Moderate,Hyderabad,29,95,24,9,133.6793653245673,48,32.6,No,Yes,High
+Malaria,High,Andaman,5,68,28,5,133.14696700736874,31,29.7,No,No,Low
+Heart Disease,Low,Aurangabad,13,37,22,2,112.88496457793754,43,25.6,Yes,Yes,Low
+Astigmatism,High,Hampi,5,47,14,6,143.75289452460885,21,16.6,Yes,No,Moderate
+Anemia,High,Puri,10,50,30,8,45.74402314860711,76,20.6,No,No,Low
+Rabies,Low,Delhi,20,88,34,11,45.21152796515322,19,20.1,Yes,No,Low
+Arthritis,Low,Delhi,40,42,17,1,104.8040653640373,21,37.1,No,No,Low
+Food Poisoning,Low,Tirupati,38,37,33,5,138.68818016293864,50,35.4,No,Yes,Low
+Sleep Apnea,Low,Madurai,35,67,7,8,162.04798446245985,45,25.4,No,Yes,Low
+Cancer,High,Somnath,18,45,23,8,71.52427699082276,37,36.8,Yes,No,Moderate
+Gallstones,Low,Chennai,36,93,22,7,105.0351744850076,25,37.4,Yes,Yes,Moderate
+Hepatitis,High,Tawang,34,80,6,6,133.11425067804433,50,36.9,No,Yes,Moderate
+Polio,Low,Konark,29,24,4,10,109.04210322508187,43,17.1,No,No,Low
+Astigmatism,Moderate,Agra,15,32,22,8,115.68490767046507,73,21.9,No,Yes,Low
+Depression,High,Rishikesh,32,64,20,5,95.30094697535455,15,22.7,No,No,Low
+Cholera,Low,Goa,40,49,28,5,54.147279249393065,55,36.9,Yes,Yes,Moderate
+Anxiety,Low,Jaipur,28,51,18,2,67.8632896713073,16,24.9,Yes,Yes,Low
+Appendicitis,High,Shillong,44,53,26,8,82.80410485066349,42,31.8,No,Yes,Moderate
+Bronchial Infection,Moderate,Gangtok,20,76,15,8,120.71126494854306,51,33.1,Yes,Yes,High
+Kidney Disease,High,Agra,22,50,14,11,79.86176177645692,37,33.7,No,Yes,Moderate
+Hepatitis,Low,Delhi,20,87,5,9,22.956039887038003,33,37.1,No,No,Low
+Hypertension,High,Andaman,13,60,19,6,47.130429780480924,48,18.9,No,No,Low
+Varicose Veins,Low,Puri,40,71,12,9,75.67779523413394,50,17.3,Yes,Yes,Moderate
+Gastritis,Moderate,Jaipur,15,91,7,4,45.32986466482679,71,37.6,No,No,Moderate
+Anemia,High,Kolkata,12,81,17,7,83.17285661235778,73,25.5,Yes,No,Moderate
+Dengue,Moderate,Khajuraho,11,25,4,9,100.13888307359537,50,32.1,Yes,No,Low
+Back Pain,High,Hyderabad,42,54,6,11,144.64832886292993,8,37.5,No,Yes,High
+Anemia,Moderate,Delhi,14,41,25,10,134.22378320171964,29,17.7,Yes,Yes,Moderate
+Diabetes,Moderate,Udaipur,28,26,9,1,46.519428068325404,27,33.2,No,Yes,Low
+Malaria,Low,Haridwar,29,32,27,6,69.25236403301412,9,31.6,No,Yes,Low
+Parkinson's Disease,Low,Cherrapunji,32,59,27,8,185.56068036946658,65,26.2,Yes,Yes,Moderate
+Fungal Infection,High,Madurai,26,57,6,3,141.99549675619235,38,31.2,No,Yes,Low
+Pancreatitis,Low,Cherrapunji,25,29,3,6,87.41905421627207,58,39.2,Yes,No,Low
+Osteoporosis,High,Lakshadweep,29,37,17,8,92.60985945165574,43,34.3,Yes,No,Low
+Parkinson's Disease,Moderate,Rishikesh,40,28,28,2,98.12857095724323,44,20.7,No,No,Low
+Hypertension,High,Jaipur,40,86,16,11,127.57586715521131,66,18.8,No,Yes,Critical
+Alzheimer's,High,Madurai,44,85,11,5,97.58200251022403,40,29.0,Yes,No,Moderate
+Motion Sickness,Low,Khajuraho,20,37,11,6,69.25565272388069,48,36.2,Yes,Yes,Low
+Back Pain,High,Jaipur,15,81,22,11,87.30834233295175,69,26.4,Yes,Yes,Moderate
+Gallstones,Moderate,Lakshadweep,20,57,19,4,107.11641888482036,71,37.6,Yes,No,Moderate
+Flu,High,Manali,30,82,12,1,148.17372654098006,64,23.0,No,Yes,Low
+Scabies,Low,Mumbai,34,26,3,6,81.95682887701412,67,29.9,Yes,No,Low
+Bronchitis,Moderate,Udaipur,32,39,7,6,114.27177050704731,7,39.8,No,Yes,High
+Bronchial Infection,Moderate,Shillong,16,52,29,8,117.04881845903591,63,19.1,No,No,Moderate
+Gallstones,Low,Pune,17,20,8,8,124.35996492717351,11,18.2,No,Yes,Low
+Stroke,High,Shimla,27,84,12,11,125.08779241781498,34,17.3,Yes,No,Moderate
+Alzheimer's,High,Jaipur,38,94,10,5,171.57938832745697,64,32.7,Yes,Yes,High
+Bronchial Infection,High,Rishikesh,39,85,5,6,107.48366761499729,52,23.8,No,No,High
+Bronchial Infection,Low,Udaipur,29,85,17,11,110.43670658249769,53,20.2,Yes,No,High
+Parkinson's Disease,High,Gangtok,28,45,35,3,120.58311602321811,10,37.7,No,Yes,Moderate
+Osteoporosis,High,Shimla,31,33,3,10,118.63726357460683,73,24.9,No,Yes,Moderate
+Gastritis,Low,Goa,19,88,18,1,55.09900776932938,54,37.3,No,Yes,Low
+Stroke,Low,Agra,21,57,31,8,154.99452118352062,57,29.9,Yes,Yes,Moderate
+Motion Sickness,High,Delhi,31,76,10,3,167.08076209221548,11,31.7,Yes,Yes,High
+Ringworm,Moderate,Bhopal,8,41,34,11,41.47852051347542,9,17.0,Yes,Yes,Moderate
+Liver Disease,Moderate,Rishikesh,36,27,5,5,160.42017784194857,42,35.8,No,Yes,High
+Sleep Apnea,Moderate,Jim Corbett,8,91,15,3,98.50644567017088,29,22.4,Yes,Yes,Moderate
+Bronchitis,High,Khajuraho,40,67,4,7,126.03078063776229,7,34.4,Yes,No,Critical
+Neck Pain,High,Ooty,11,64,32,11,125.53657746236547,17,34.9,Yes,No,Moderate
+Sinusitis,Low,Jaipur,20,23,30,10,82.19583846692089,8,29.4,No,Yes,Low
+Anemia,Low,Varanasi,29,89,23,4,121.98132274250823,48,17.2,No,Yes,Low
+Hepatitis,Moderate,Dwarka,29,48,18,3,145.65470587961744,42,20.7,Yes,No,Low
+Gallstones,Moderate,Mumbai,39,82,6,8,102.26086788890723,17,39.6,No,No,Low
+Lyme Disease,Low,Varanasi,22,79,25,1,96.08522245335526,68,21.4,No,No,Low
+Skin Infection,Low,Jim Corbett,14,76,20,4,111.24150617249353,5,39.3,No,No,Low
+Chickenpox,Low,Gangtok,23,91,16,5,51.8397364652007,67,24.7,No,No,Low
+Cancer,Moderate,Tirupati,20,32,15,9,72.89817064669148,31,36.7,No,No,Low
+Migraine,Moderate,Tirupati,43,31,20,11,146.12911616089357,55,23.5,No,No,Moderate
+Chickenpox,High,Kochi,34,37,27,6,150.51930137662765,40,30.2,Yes,Yes,Moderate
+Alzheimer's,Moderate,Shimla,24,77,3,8,157.86018010268006,59,28.7,Yes,No,Moderate
+Anemia,High,Bhopal,37,56,22,11,80.42332937023451,13,37.6,No,Yes,Moderate
+Liver Disease,Moderate,Amritsar,40,64,12,9,42.93114059591674,26,25.2,No,Yes,High
+Heat Exhaustion,Low,Bhopal,22,26,22,2,24.465305859390313,57,22.8,Yes,No,Low
+Liver Disease,Low,Jaipur,39,85,20,6,201.2882503898488,23,35.4,No,Yes,High
+COVID-19,Moderate,Munnar,27,90,29,1,70.57789272325621,8,24.7,No,Yes,Moderate
+Parkinson's Disease,Low,Somnath,12,59,33,1,79.01077178462154,80,35.1,No,Yes,Low
+Gastritis,Moderate,Jaipur,30,79,28,8,61.71630124463985,22,34.6,Yes,Yes,Low
+Fungal Infection,High,Leh,12,64,13,2,93.89631189223438,54,16.6,Yes,Yes,Moderate
+Hypertension,High,Tirupati,41,82,11,2,83.67741438785725,54,19.8,No,No,Moderate
+Skin Infection,Moderate,Kochi,21,29,13,4,140.19824554052425,30,24.5,No,No,Low
+Osteoporosis,High,Darjeeling,34,94,14,5,75.09128853761153,65,18.4,Yes,No,Moderate
+Hypertension,High,Aurangabad,11,35,31,9,96.83914205843374,26,18.5,No,No,Low
+Vitamin D Deficiency,Moderate,Varanasi,18,31,28,1,117.9403052718009,35,16.6,Yes,No,Moderate
+Motion Sickness,Low,Goa,24,25,12,3,58.79673999643971,14,24.2,Yes,No,Low
+Bronchitis,High,Konark,29,83,7,11,142.26147417514116,30,33.6,Yes,No,High
+Sleep Apnea,High,Konark,30,80,16,7,110.31755545226993,43,38.5,No,Yes,Moderate
+Food Poisoning,Low,Shillong,43,82,24,2,108.99033362163439,21,28.5,Yes,No,Moderate
+Food Poisoning,High,Srinagar,24,34,12,1,96.28664189186942,36,15.8,Yes,No,Moderate
+Celiac Disease,Moderate,Hyderabad,26,81,24,5,151.55779763434012,24,22.5,Yes,No,Moderate
+Psoriasis,Moderate,Gangtok,29,69,11,2,121.79266643836371,73,15.7,Yes,Yes,Moderate
+COVID-19,Low,Goa,11,60,7,2,133.43773306011934,57,37.1,No,No,Low
+Heat Exhaustion,Moderate,Pune,33,30,22,11,156.5104786645918,31,25.6,Yes,No,Moderate
+Eye Infection,High,Gangtok,20,64,5,3,77.3478099038948,8,37.0,No,Yes,Moderate
+Food Poisoning,Low,Kanyakumari,33,66,11,3,119.53759469704826,53,26.3,Yes,No,Low
+Lyme Disease,High,Tawang,38,45,11,5,81.47448013332311,34,15.2,Yes,Yes,Moderate
+Meningitis,Moderate,Ahmedabad,44,45,4,9,134.51103672091378,69,36.4,Yes,Yes,Critical
+Osteoporosis,High,Haridwar,38,59,30,1,86.65251760040579,16,23.4,No,No,Low
+Flu,Low,Mysore,20,45,12,7,78.63646076593206,19,34.8,No,No,Low
+Ulcer,Moderate,Goa,25,59,5,10,110.95088781762988,53,34.2,Yes,No,Moderate
+Deep Vein Thrombosis,Low,Kochi,5,41,29,3,48.62621352882133,61,35.4,No,No,Low
+Bronchial Infection,Moderate,Shimla,44,55,13,3,47.27742060173319,74,34.7,Yes,No,High
+Arthritis,Low,Shimla,36,76,22,11,20.0,15,25.0,Yes,No,Low
+Pneumonia,Moderate,Varanasi,15,72,7,2,47.86461279015141,27,30.0,Yes,No,Low
+Bronchial Infection,Low,Jaipur,29,94,9,1,169.31623983232714,6,38.3,No,No,High
+Epilepsy,Low,Ahmedabad,36,44,25,11,104.2974929861142,20,33.6,No,No,Low
+Fungal Infection,Low,Jaipur,20,61,18,1,52.99681615249254,42,32.3,Yes,Yes,Low
+Diabetes,Low,Jaipur,37,86,11,4,157.09963680952512,68,19.2,No,No,High
+Depression,High,Aurangabad,26,60,22,8,28.45813610076374,38,19.0,No,No,Low
+Vitamin D Deficiency,Moderate,Goa,27,30,16,1,128.86106764049552,34,26.8,No,Yes,Low
+Bronchial Infection,Moderate,Munnar,31,27,27,7,95.09019959359809,50,34.9,No,No,Low
+Ulcer,Moderate,Madurai,5,72,8,5,79.39201568478168,6,33.0,No,No,Low
+Bronchial Infection,Low,Bhopal,22,26,22,2,40.19210889372681,17,35.1,No,No,Low
+Sinusitis,Low,Leh,37,54,23,2,41.55874429263193,17,20.5,No,No,Low
+Multiple Sclerosis,High,Kaziranga,11,93,9,1,70.23083011431095,8,27.8,Yes,Yes,Moderate
+Heart Disease,Moderate,Konark,31,29,15,3,129.19564620610112,37,28.4,Yes,Yes,Moderate
+Heat Stroke,High,Leh,6,72,9,1,160.17204311495823,58,24.4,No,No,Low
+Bronchial Infection,High,Goa,22,20,13,3,153.78361370146018,49,26.6,Yes,No,High
+Food Poisoning,High,Pune,17,83,34,7,119.67925537423251,38,24.9,No,No,Low
+Chickenpox,Low,Delhi,19,28,7,3,80.39395189282085,62,37.0,Yes,Yes,Low
+Leprosy,Moderate,Mumbai,42,61,23,5,111.35646920281931,16,16.2,No,Yes,Moderate
+Measles,High,Jaipur,42,32,26,5,151.89425600405025,39,32.1,Yes,Yes,High
+Ulcer,High,Tirupati,38,57,8,7,87.535822957607,78,33.5,No,No,High
+Stroke,Low,Darjeeling,26,47,2,8,78.11194003227594,71,18.2,No,No,Low
+Bronchitis,Low,Varanasi,38,91,12,4,32.02296767902769,27,34.2,No,No,Low
+Skin Infection,High,Rishikesh,36,78,30,1,117.4857861992935,65,21.2,Yes,No,Moderate
+Bronchial Infection,High,Manali,38,58,22,5,71.41921013112417,55,26.0,Yes,Yes,Moderate
+Varicose Veins,Low,Rishikesh,36,79,12,7,128.23916694481545,35,38.1,No,No,Low
+Depression,Low,Manali,37,48,16,10,58.940516508249495,31,16.2,No,No,Low
+Appendicitis,High,Varanasi,30,27,26,3,109.67583044920428,80,39.4,Yes,Yes,High
+Celiac Disease,Low,Jim Corbett,9,50,18,10,98.42706323137142,17,24.5,Yes,Yes,Low
+Fungal Infection,High,Jim Corbett,29,29,10,10,85.0897789626963,12,18.1,No,No,Moderate
+Ringworm,Low,Puri,19,39,9,10,93.42368545014668,23,37.9,No,Yes,Low
+Dengue,High,Kolkata,7,56,9,2,87.98439923385597,54,22.1,Yes,No,Low
+Sleep Apnea,High,Agra,20,80,31,8,119.64206075517303,23,31.0,No,Yes,Low
+Eye Infection,High,Dwarka,21,68,14,9,68.73309956573485,45,21.7,No,Yes,Low
+Kidney Disease,Low,Hyderabad,36,32,25,8,81.41067427845827,54,35.2,No,Yes,Moderate
+Asthma,Low,Aurangabad,18,73,8,9,202.50677972184698,39,23.2,No,No,Moderate
+Malaria,Moderate,Gangtok,14,76,26,2,40.69858646114069,20,31.3,No,Yes,Low
+Kidney Disease,Low,Kanyakumari,33,47,23,2,65.53482457858381,76,31.1,Yes,Yes,Low
+HIV/AIDS,Moderate,Kolkata,13,80,7,8,84.39080155462345,7,19.7,No,Yes,Low
+Fungal Infection,Moderate,Shimla,37,20,11,11,148.36300221102653,47,17.5,Yes,Yes,High
+Motion Sickness,High,Aurangabad,40,46,19,11,125.35451343046316,48,39.6,Yes,No,High
+Cholera,Moderate,Konark,26,33,15,10,49.971357522896476,22,35.9,Yes,Yes,Moderate
+Chickenpox,High,Jaipur,28,52,4,7,125.91311847971885,56,20.7,No,No,Low
+Dengue,Moderate,Kolkata,30,62,6,10,47.50961691547196,9,38.4,Yes,No,Moderate
+Multiple Sclerosis,Moderate,Puri,36,21,11,2,83.64797422514417,14,16.9,Yes,No,Moderate
+Insomnia,High,Kaziranga,27,30,27,6,84.04861721367661,50,37.4,Yes,No,Moderate
+Liver Disease,High,Agra,20,80,31,8,173.03870313741754,65,39.5,No,No,Moderate
+Ringworm,High,Jaipur,45,75,11,2,145.0604521764921,8,36.6,Yes,Yes,High
+Migraine,Moderate,Cherrapunji,22,88,26,8,56.38352977032354,45,23.7,Yes,No,Low
+Migraine,High,Kanyakumari,34,21,12,7,108.19462392612365,28,23.3,No,Yes,Low
+Stroke,High,Jim Corbett,33,53,21,10,55.520264182925665,26,36.0,Yes,Yes,Moderate
+Eye Infection,High,Kanyakumari,8,85,19,5,76.61840978599204,45,36.3,Yes,Yes,Moderate
+Bronchial Infection,Low,Andaman,45,50,16,7,103.94803554280386,43,29.3,Yes,No,High
+Ulcer,High,Somnath,18,80,17,9,124.73580408719954,55,31.2,No,No,Low
+Thyroid Disorder,Moderate,Bhopal,33,57,21,6,154.02176025098169,24,20.4,No,No,Low
+Ear Infection,Moderate,Darjeeling,12,73,33,6,126.54764133822125,13,38.7,Yes,Yes,Moderate
+Eye Infection,High,Rishikesh,15,78,16,2,116.72386259664029,32,18.9,Yes,Yes,Moderate
+Bronchial Infection,Low,Mumbai,22,54,15,4,68.68855194201169,32,36.7,Yes,Yes,Low
+Food Poisoning,High,Srinagar,14,29,2,2,22.523631018639335,62,22.3,Yes,Yes,Moderate
+Ear Infection,Low,Hampi,9,87,29,9,167.50822047439559,8,38.2,No,No,Moderate
+Rabies,Low,Leh,28,42,33,4,111.00401474272996,54,21.9,Yes,Yes,Low
+Skin Infection,Moderate,Kolkata,45,78,32,11,125.05947293295999,25,29.7,No,Yes,High
+Stroke,Moderate,Aurangabad,28,93,14,10,127.91153797739075,28,30.3,No,Yes,Moderate
+Parkinson's Disease,Low,Goa,5,65,35,3,100.26981413233472,14,38.6,Yes,Yes,Moderate
+Malaria,High,Udaipur,26,21,14,5,160.17504935418984,40,38.6,No,Yes,Moderate
+Obesity,Low,Tirupati,45,50,5,9,136.15190257872865,33,27.1,Yes,Yes,Moderate
+Ear Infection,Low,Aurangabad,18,51,9,4,74.83052777754077,6,15.9,Yes,No,Low
+Depression,Moderate,Andaman,26,43,3,5,105.88516525914952,37,34.1,No,No,Low
+Gallstones,Low,Munnar,30,48,8,2,137.68222108610013,49,18.3,No,No,Low
+Fungal Infection,Moderate,Cherrapunji,11,35,3,3,35.066919944440954,9,36.2,Yes,No,Moderate
+Arthritis,Moderate,Munnar,22,37,8,9,102.87170359953221,78,34.3,No,No,Low
+Kidney Disease,Low,Chennai,6,25,7,2,154.89660008888515,65,37.9,Yes,Yes,Moderate
+Pancreatitis,Low,Hyderabad,12,90,6,2,169.59793446702417,30,17.7,Yes,No,Moderate
+Thyroid Disorder,High,Agra,29,40,8,6,40.15717055533449,57,16.1,No,Yes,Moderate
+Migraine,High,Ooty,34,87,2,11,78.48294409447497,45,16.4,No,Yes,Moderate
+Asthma,Low,Mysore,35,89,22,5,109.29657143830947,35,20.1,Yes,Yes,High
+Diabetes,Moderate,Delhi,32,87,16,7,95.76751967473818,14,28.7,Yes,No,Low
+HIV/AIDS,High,Kanyakumari,24,24,11,1,52.72955710462969,11,35.9,Yes,No,Moderate
+Flu,Low,Munnar,39,71,9,7,105.00566360886428,78,17.3,Yes,Yes,High
+Diabetes,Moderate,Andaman,31,80,18,11,20.0,28,27.7,Yes,Yes,Moderate
+Chickenpox,High,Shimla,28,26,24,8,107.17005572768265,35,39.2,No,Yes,Moderate
+Dengue,Moderate,Aurangabad,19,39,16,1,59.94346543091281,13,23.8,Yes,Yes,Low
+Food Poisoning,Low,Agra,12,31,25,9,117.71431134364498,47,22.5,Yes,Yes,Low
+Skin Infection,High,Kolkata,12,81,17,7,97.416252763818,66,21.9,Yes,Yes,Moderate
+Measles,Low,Mumbai,37,73,10,3,111.69655146548725,20,20.6,No,No,Low
+Stroke,Moderate,Gangtok,37,57,34,1,68.44076666437472,60,27.2,No,Yes,Low
+Skin Infection,Low,Mumbai,30,80,35,2,85.74236914015748,36,25.9,No,No,Low
+Skin Infection,High,Shimla,21,58,24,7,125.50612601107706,75,29.4,No,No,Low
+Cancer,Moderate,Kaziranga,32,77,15,6,154.88986764188994,36,23.2,No,No,Low
+Polio,Low,Hyderabad,42,27,31,1,101.32483728409741,37,39.3,Yes,No,Moderate
+Deep Vein Thrombosis,Moderate,Kaziranga,13,32,7,4,47.35802259392281,23,24.3,Yes,No,Low
+Obesity,High,Dwarka,35,32,4,6,112.37049392981923,79,40.0,Yes,Yes,Critical
+Polio,Moderate,Hyderabad,7,65,25,7,25.322003463730923,49,23.8,Yes,Yes,Low
+Bronchial Infection,High,Munnar,11,48,30,9,109.77043118470324,75,38.9,No,No,High
+Hepatitis,Moderate,Ahmedabad,29,57,11,5,80.00418898062507,24,35.3,No,Yes,Low
+Dengue,Low,Hyderabad,36,24,12,11,98.67468037535205,20,27.3,No,Yes,Low
+Flu,Moderate,Lakshadweep,24,67,12,3,80.85131840122547,78,15.1,Yes,Yes,Moderate
+Pancreatitis,Moderate,Pune,10,43,2,1,56.268006678869746,20,34.1,Yes,Yes,Low
+Eye Infection,Moderate,Hampi,6,57,35,6,73.73912834877483,41,32.6,No,Yes,Low
+Measles,High,Madurai,37,86,13,8,121.77045823119511,32,19.0,No,No,Moderate
+Typhoid,High,Rishikesh,43,72,9,4,109.98323451324207,10,39.5,No,No,Moderate
+Allergy,Moderate,Khajuraho,9,58,22,3,82.88192300330422,26,33.0,Yes,No,Low
+Pancreatitis,Moderate,Delhi,37,94,6,7,76.57797379017296,23,15.9,Yes,No,Moderate
+Measles,Low,Mysore,11,58,17,3,138.93311088411605,33,31.2,Yes,No,Low
+Depression,Low,Dwarka,33,20,27,2,100.30424345147928,33,36.2,No,No,Low
+Bronchitis,Moderate,Srinagar,7,36,9,4,57.528403597315,77,30.8,Yes,Yes,Moderate
+Pancreatitis,Low,Mumbai,12,57,25,10,160.6932197765979,22,36.1,Yes,No,Moderate
+Sleep Apnea,Moderate,Delhi,10,65,27,7,49.448807840989026,15,36.4,Yes,No,Low
+Astigmatism,High,Rishikesh,32,64,20,5,114.67641026743318,38,30.6,Yes,No,Moderate
+Altitude Sickness,Moderate,Kolkata,36,57,19,9,107.51097484461299,78,23.6,No,Yes,High
+Vitamin B12 Deficiency,Low,Tawang,38,83,14,11,71.6352270790055,37,30.2,No,No,Low
+Motion Sickness,High,Ahmedabad,5,70,33,6,150.86160097467805,29,15.1,Yes,Yes,High
+Polio,High,Udaipur,43,52,35,7,130.37120738474727,63,30.7,No,Yes,Moderate
+Eye Infection,High,Hyderabad,36,92,3,4,118.00907551859585,13,28.9,Yes,Yes,High
+Vitamin B12 Deficiency,Moderate,Andaman,42,53,23,9,73.02842289403259,35,19.3,Yes,Yes,Moderate
+Measles,High,Goa,39,64,14,11,90.0516892629182,54,25.6,Yes,No,Moderate
+Pancreatitis,Moderate,Munnar,27,90,29,1,106.54125890228734,10,22.8,No,Yes,Moderate
+Celiac Disease,High,Udaipur,34,81,13,1,153.4541130452399,56,21.7,Yes,No,Moderate
+Thyroid Disorder,Low,Delhi,12,86,16,10,105.78708537112216,59,30.4,Yes,Yes,Moderate
+Fungal Infection,Low,Mysore,15,43,25,7,157.5725391462405,43,26.1,No,Yes,Low
+Vitamin B12 Deficiency,High,Kaziranga,5,87,4,10,157.87288136058015,23,15.3,Yes,Yes,High
+Psoriasis,High,Shimla,23,58,33,7,120.41248533486561,19,32.1,No,No,Low
+Dehydration,Low,Puri,33,40,22,8,118.67028194100386,79,25.7,No,No,Low
+Altitude Sickness,Moderate,Mumbai,8,84,13,8,82.44978834072153,63,38.2,Yes,Yes,Moderate
+IBS,High,Somnath,24,37,35,11,107.58800687324769,51,21.0,No,No,Low
+Anemia,High,Cherrapunji,33,57,13,8,123.88029375416126,56,17.9,No,No,Low
+HIV/AIDS,Moderate,Dwarka,25,73,33,1,122.97715958343687,52,39.9,Yes,Yes,Moderate
+Sleep Apnea,High,Khajuraho,41,82,34,11,74.30621476583349,28,17.9,Yes,Yes,High
+Allergy,Moderate,Haridwar,38,33,9,8,101.87246659930285,49,17.8,No,Yes,High
+Bronchitis,Low,Konark,17,34,11,1,95.11511603452747,61,31.4,No,Yes,Low
+Vitamin B12 Deficiency,High,Pune,42,53,11,11,119.56783411670493,69,28.0,Yes,No,Critical
+Parkinson's Disease,Moderate,Srinagar,22,95,21,10,141.41335692118489,11,24.7,Yes,No,Moderate
+Alzheimer's,High,Aurangabad,37,48,22,10,56.67365931761786,52,20.5,No,No,Moderate
+Deep Vein Thrombosis,High,Rishikesh,8,47,26,3,164.57845486701268,72,25.3,No,Yes,Moderate
+Appendicitis,Low,Udaipur,30,67,3,8,64.26129857126625,60,37.0,Yes,No,Low
+Depression,Low,Delhi,16,34,29,5,99.26111196923509,79,24.2,No,No,Low
+Astigmatism,Low,Mumbai,21,39,25,10,112.94770200301984,70,38.6,No,No,Low
+Malaria,High,Munnar,43,65,33,7,39.58966053838868,21,21.9,No,No,Moderate
+Celiac Disease,Low,Hyderabad,37,46,13,6,177.09611948403852,48,33.2,Yes,No,Moderate
+Back Pain,High,Amritsar,29,88,17,9,177.27814389082388,69,31.8,Yes,Yes,High
+Deep Vein Thrombosis,High,Delhi,19,54,8,11,194.39332529953987,57,23.1,Yes,Yes,High
+Gastritis,Moderate,Mysore,7,79,35,6,106.71149853057706,31,18.0,No,No,Low
+Obesity,High,Leh,14,37,18,10,82.86667727666345,56,29.1,Yes,No,Moderate
+Neck Pain,High,Jim Corbett,11,55,17,7,139.0873242014814,63,31.1,Yes,Yes,Moderate
+Appendicitis,High,Srinagar,20,83,19,7,126.9666315858449,21,18.3,Yes,No,Moderate
+Thyroid Disorder,High,Dwarka,14,92,14,11,139.0003811638145,48,35.7,Yes,No,High
+Polio,Moderate,Chennai,36,63,8,5,145.34560593577174,20,19.8,No,Yes,Low
+COVID-19,Moderate,Konark,13,70,9,11,126.17418389004779,74,25.8,Yes,No,Moderate
+Asthma,High,Chennai,14,69,7,2,142.90303204503286,74,36.6,No,Yes,High
+Parkinson's Disease,Low,Manali,20,42,4,5,73.25463290857599,44,21.9,No,No,Low
+Depression,Moderate,Agra,28,29,13,8,47.764378546780726,23,16.8,No,Yes,Low
+Alzheimer's,High,Haridwar,35,40,3,5,121.4271159912704,73,23.0,Yes,No,High
+Astigmatism,High,Shillong,6,95,31,9,80.81433497844768,65,20.3,Yes,Yes,Moderate
+Scabies,High,Kanyakumari,40,58,5,7,51.73843186340952,77,36.6,Yes,Yes,Critical
+Dehydration,High,Mysore,40,95,29,8,128.80089283837538,72,27.9,No,Yes,Critical
+Dengue,High,Kochi,28,67,15,6,71.58412077364903,51,37.6,Yes,Yes,Moderate
+Skin Infection,Low,Darjeeling,25,86,3,10,105.77056323589025,65,34.1,No,Yes,Moderate
+Osteoporosis,High,Khajuraho,16,42,32,11,68.65417179472705,41,23.0,Yes,Yes,Moderate
+Lyme Disease,High,Kolkata,38,46,2,11,99.23998498839018,48,19.2,No,Yes,Moderate
+Gallstones,Moderate,Leh,26,68,31,11,152.97524081794302,56,25.5,No,No,Low
+Epilepsy,Moderate,Cherrapunji,36,47,3,3,54.78401319686662,74,16.1,No,No,High
+Dengue,Low,Kolkata,37,65,34,10,92.11641353359764,15,19.5,No,Yes,Low
+Heat Exhaustion,Moderate,Lakshadweep,22,36,8,4,94.17015820021447,23,38.5,Yes,Yes,Moderate
+Fungal Infection,High,Kochi,20,38,11,2,151.82914291146912,80,18.1,No,No,Moderate
+Appendicitis,Moderate,Leh,13,87,24,8,177.16777552619732,33,20.8,No,Yes,Moderate
+Fungal Infection,Moderate,Mumbai,31,63,25,8,124.72180769709695,47,29.1,Yes,Yes,Moderate
+Psoriasis,Moderate,Darjeeling,43,74,29,4,142.43476298825513,27,21.8,Yes,Yes,Moderate
+Cholera,Low,Mumbai,20,78,13,9,53.82248394716326,6,24.6,No,Yes,Low
+Migraine,Low,Aurangabad,39,93,26,4,116.24212002090152,45,22.7,No,Yes,Low
+Liver Disease,Low,Puri,38,52,28,11,88.7477610934171,58,29.2,No,Yes,Moderate
+Deep Vein Thrombosis,High,Jaipur,17,66,18,8,75.13925390426746,55,31.3,Yes,Yes,Moderate
+Psoriasis,High,Hampi,45,23,20,1,52.71187697419066,71,28.1,No,No,High
+Arthritis,Moderate,Khajuraho,13,82,21,4,123.93889667983782,10,27.7,No,Yes,Low
+Cancer,High,Chennai,9,67,29,4,88.27795648218748,19,18.6,Yes,Yes,Moderate
+Eye Infection,High,Hampi,24,43,31,3,152.0459405661938,68,36.6,Yes,No,High
+Measles,Low,Jim Corbett,40,20,28,5,101.10922555174314,62,20.1,Yes,No,Moderate
+Ulcer,High,Ooty,10,81,22,10,137.16531727784886,57,31.6,No,No,Low
+Typhoid,Moderate,Agra,37,74,8,3,57.63308577750246,22,35.5,No,Yes,Moderate
+Leprosy,High,Leh,23,88,15,6,20.0,58,36.0,No,No,Moderate
+Pancreatitis,Low,Ahmedabad,42,64,2,11,93.08589490326138,47,30.4,No,Yes,Moderate
+Pancreatitis,High,Udaipur,10,86,5,11,74.52009906199768,19,39.5,No,Yes,Moderate
+Hypertension,Moderate,Hyderabad,36,32,25,8,137.9253732362531,25,21.9,No,No,Low
+Hypertension,High,Goa,27,48,33,3,73.78778843688498,28,23.0,Yes,No,Low
+Leprosy,Moderate,Kanyakumari,22,60,3,7,29.28120457265696,20,26.4,Yes,No,Low
+Tuberculosis,Moderate,Ooty,27,66,22,7,22.67252584200307,19,22.0,Yes,Yes,Low
+Malaria,High,Hampi,40,54,4,6,131.12641132565975,63,15.9,Yes,No,High
+Lyme Disease,Moderate,Somnath,38,73,34,9,129.60539717537898,16,23.5,Yes,No,Moderate
+Vitamin D Deficiency,High,Delhi,45,63,26,9,107.0013588385946,6,31.7,No,No,Moderate
+Gastritis,Moderate,Hampi,28,22,18,11,83.71361901465394,61,35.2,Yes,Yes,Moderate
+Arthritis,High,Goa,29,48,4,9,126.81829308270927,36,27.9,No,No,Low
+Ringworm,Low,Shimla,5,21,5,10,108.54443867825427,61,26.6,Yes,No,Low
+Altitude Sickness,Low,Tawang,35,46,31,9,20.0,11,31.8,No,No,Low
+Bronchial Infection,Low,Ahmedabad,42,85,13,6,82.21161908977123,57,32.0,Yes,No,Moderate
+Cold,Moderate,Aurangabad,24,48,20,6,95.56387829777547,55,32.1,No,Yes,Low
+Lyme Disease,High,Puri,19,37,9,7,118.2274398587301,43,33.1,Yes,Yes,Moderate
+Skin Infection,High,Mumbai,12,57,25,10,107.733204097082,44,25.9,No,No,Moderate
+Cholera,Moderate,Kaziranga,15,32,9,4,80.31741049305953,13,18.7,Yes,Yes,Low
+Altitude Sickness,Moderate,Jim Corbett,29,61,4,2,102.49703480460057,24,22.4,No,No,Low
+Ringworm,Low,Manali,35,47,31,10,95.22426044136449,16,25.4,Yes,No,Low
+Chickenpox,Low,Kolkata,5,39,25,10,94.57260775674888,74,30.8,Yes,Yes,Moderate
+Dengue,Low,Hampi,35,92,9,2,29.6229846377379,68,21.7,No,No,Moderate
+Meningitis,Low,Agra,11,32,19,2,91.66027749116803,55,38.5,Yes,Yes,Low
+Dehydration,Moderate,Andaman,15,35,16,1,74.57684688307971,42,20.6,No,No,Low
+Cold,High,Aurangabad,34,33,18,4,30.10387258330313,14,30.3,No,Yes,Low
+Skin Infection,Low,Dwarka,37,22,5,11,20.0,29,19.3,Yes,Yes,High
+Hepatitis,High,Madurai,12,59,16,9,95.43217637758595,17,26.6,No,Yes,Low
+Vitamin D Deficiency,High,Darjeeling,41,86,18,1,53.95475073478685,41,30.5,Yes,No,Moderate
+Cholera,Moderate,Puri,8,77,21,2,105.03538736943786,36,15.2,Yes,No,Moderate
+Meningitis,High,Manali,17,51,31,6,60.32891855644687,33,33.8,Yes,Yes,Moderate
+Arthritis,Low,Hyderabad,44,25,29,9,87.33423012883709,43,37.1,No,Yes,Moderate
+Ear Infection,Moderate,Gangtok,33,33,24,4,136.71020188558578,77,17.0,No,Yes,Moderate
+Alzheimer's,High,Gangtok,39,52,19,9,111.50473657349096,65,26.7,Yes,Yes,Moderate
+Parkinson's Disease,Low,Agra,31,94,23,5,126.05524984848418,26,38.1,No,Yes,Low
+Kidney Disease,Low,Kaziranga,43,67,19,1,55.812531569258425,71,28.4,No,Yes,High
+Polio,Moderate,Varanasi,43,69,9,8,93.49328503668586,64,30.1,No,No,Low
+Insomnia,Low,Aurangabad,45,55,15,6,104.51295958977369,37,30.3,Yes,Yes,Moderate
+Fungal Infection,High,Chennai,9,92,33,10,133.84083487001297,78,25.1,Yes,Yes,High
+Epilepsy,High,Kolkata,27,66,4,11,20.0,51,24.2,Yes,Yes,Moderate
+Fungal Infection,High,Madurai,23,89,32,5,86.29813073126968,30,25.7,No,No,Low
+Gastritis,Low,Hampi,24,43,31,3,71.730158381117,66,22.1,Yes,No,Low
+Flu,Low,Cherrapunji,30,34,30,9,118.13476600536193,16,16.5,Yes,Yes,Moderate
+Psoriasis,High,Darjeeling,13,91,6,2,62.13541213815006,76,24.2,No,Yes,Moderate
+Back Pain,Low,Kaziranga,32,62,21,8,158.7107433864568,80,17.5,No,Yes,Moderate
+Alzheimer's,Moderate,Srinagar,24,46,30,7,103.35777873869263,16,35.8,Yes,No,Moderate
+Cholera,High,Bhopal,41,78,34,5,118.51078953045601,66,15.2,Yes,Yes,Critical
+Depression,High,Pune,29,39,31,9,172.37178607334238,14,22.8,No,No,Low
+Eye Infection,High,Hyderabad,44,65,3,3,119.82245218049304,74,39.5,No,Yes,Critical
+Cold,Low,Munnar,21,52,31,3,195.37859549206055,72,37.8,Yes,Yes,Moderate
+Bronchitis,High,Hampi,34,92,29,1,111.36800940378154,45,37.4,Yes,Yes,Critical
+Malaria,High,Goa,8,90,34,5,100.22610265716528,61,16.8,Yes,No,Moderate
+Obesity,Low,Gangtok,6,32,14,1,132.40896015429058,79,24.3,Yes,No,Low
+Depression,Low,Jim Corbett,24,36,22,2,87.45780981293059,60,29.6,Yes,No,Low
+Flu,Moderate,Manali,42,86,27,9,142.05440174473412,53,37.8,No,No,Moderate
+Arthritis,Moderate,Darjeeling,34,94,14,5,127.36039895455416,15,28.9,No,No,Low
+Obesity,Low,Kanyakumari,28,88,32,10,101.92247827763953,43,22.3,Yes,Yes,Moderate
+Bronchitis,High,Hampi,37,42,15,9,92.77431451867999,14,20.6,No,Yes,Moderate
+Cholera,Low,Hyderabad,32,80,21,2,109.12556429299423,57,28.1,Yes,Yes,Low
+HIV/AIDS,High,Somnath,29,85,10,4,82.1984305008726,25,39.3,Yes,No,Moderate
+Heart Disease,High,Srinagar,28,72,4,10,59.90073411590589,67,29.0,No,No,Moderate
+Ulcer,Moderate,Konark,6,35,18,2,145.89722320838266,59,25.2,Yes,Yes,Moderate
+Flu,Low,Ooty,11,33,33,9,62.05646335313522,24,30.7,No,Yes,Low
+Polio,High,Dwarka,26,75,18,6,142.34425880479264,15,20.3,No,Yes,Low
+Vitamin B12 Deficiency,Moderate,Tirupati,10,33,2,5,120.05008256145096,56,31.5,Yes,Yes,Moderate
+Eye Infection,Moderate,Khajuraho,17,23,10,11,35.988315930471614,69,28.1,No,No,Low
+Cholera,Low,Khajuraho,15,74,31,8,125.62277757285418,7,26.2,No,Yes,Low
+Anxiety,Moderate,Manali,45,53,28,10,138.8925663775218,52,31.3,No,No,Moderate
+Gastritis,High,Agra,23,86,9,7,128.1225918990326,51,36.8,No,No,Moderate
+IBS,Moderate,Gangtok,16,86,28,6,94.44318467646309,32,36.6,No,Yes,Moderate
+Deep Vein Thrombosis,High,Shillong,15,76,34,6,121.51293163818667,67,39.5,Yes,No,Moderate
+Parkinson's Disease,Moderate,Amritsar,23,29,26,2,95.12192185724622,37,18.0,Yes,No,Low
+Appendicitis,Moderate,Somnath,24,87,6,1,142.5322189287965,28,26.1,Yes,Yes,Moderate
+Appendicitis,High,Lakshadweep,35,84,12,2,49.944546849632076,36,20.3,Yes,Yes,Moderate
+Bronchitis,High,Aurangabad,16,40,7,4,136.002128591173,62,24.9,No,Yes,High
+Measles,Low,Lakshadweep,34,82,17,8,84.77714362291415,73,17.9,Yes,Yes,Moderate
+Heat Stroke,High,Aurangabad,24,48,20,6,125.32938772237077,46,17.6,No,No,Low
+Liver Disease,Moderate,Aurangabad,31,66,5,11,63.32747627558043,45,32.1,No,Yes,Low
+Kidney Disease,Low,Ooty,34,87,2,11,57.05723129783127,54,39.4,Yes,No,Moderate
+Measles,Low,Mysore,9,52,9,11,119.15728902375433,56,22.6,No,No,Low
+Insomnia,High,Leh,24,25,30,6,166.72238831852212,39,29.5,Yes,Yes,Moderate
+Leprosy,Moderate,Amritsar,10,58,21,2,68.65720051802037,27,31.4,No,No,Low
+Sleep Apnea,Low,Varanasi,22,79,25,1,97.6633376872124,60,28.5,No,No,Low
+Vitamin B12 Deficiency,Low,Kolkata,36,27,22,4,197.43321049715385,17,34.8,No,No,Low
+Hypertension,Low,Hyderabad,38,70,7,7,131.4552617546878,16,38.4,No,No,Low
+Measles,Moderate,Chennai,36,63,8,5,100.22081797809298,21,27.1,No,Yes,Low
+Parkinson's Disease,High,Manali,32,60,19,9,87.8991088134736,31,24.9,Yes,No,Low
+Depression,High,Pune,29,22,25,3,89.71574781917536,27,27.3,Yes,Yes,Moderate
+Obesity,High,Madurai,40,88,9,6,133.63262883669748,14,19.7,Yes,Yes,High
+Malaria,High,Somnath,24,42,31,3,93.29775111052761,60,24.8,Yes,No,Low
+Tuberculosis,High,Ahmedabad,30,83,6,4,114.19797232668273,75,29.6,Yes,Yes,Moderate
+Pneumonia,High,Hyderabad,36,72,5,2,137.8385846311743,11,22.1,Yes,Yes,High
+Pneumonia,Moderate,Aurangabad,6,59,20,7,143.41934973888814,5,16.7,No,No,Low
+Polio,Moderate,Agra,18,36,23,8,170.43847482027832,60,18.6,No,Yes,Low
+Dehydration,Low,Hyderabad,5,53,29,11,100.58378662576695,29,33.8,No,No,Low
+Deep Vein Thrombosis,High,Munnar,20,76,8,4,86.00643239392016,13,35.6,Yes,No,Moderate
+Polio,High,Khajuraho,15,27,10,9,133.81661615914882,13,26.9,No,Yes,Low
+Back Pain,Low,Mumbai,33,57,4,11,115.25320845613737,57,38.2,No,No,Low
+Bronchial Infection,Moderate,Chennai,20,80,20,5,116.29946045868569,46,30.6,No,No,Moderate
+Depression,High,Delhi,9,52,11,10,175.99112863172445,73,18.1,No,Yes,High
+Psoriasis,Low,Varanasi,19,88,4,7,118.99578204524485,30,21.4,No,No,Low
+Polio,Moderate,Shimla,31,88,34,11,164.04504228263812,25,29.1,No,No,Moderate
+Deep Vein Thrombosis,Low,Hyderabad,23,25,33,2,59.96240075045455,28,32.1,No,Yes,Low
+Polio,High,Kolkata,42,49,21,6,24.436025725807852,11,21.5,Yes,Yes,High
+Rabies,High,Mumbai,33,57,4,11,104.93406766460949,47,21.7,Yes,Yes,Moderate
+Anemia,High,Amritsar,32,58,13,2,57.68418893722832,19,36.2,Yes,No,Moderate
+Vitamin B12 Deficiency,Moderate,Lakshadweep,33,88,33,11,49.38168998351556,43,16.8,Yes,Yes,Moderate
+Diabetes,Low,Jaipur,7,56,15,11,66.20936606669754,62,34.4,Yes,No,Low
+Cholera,Moderate,Hyderabad,36,41,13,6,175.0248428783807,45,31.2,Yes,Yes,Moderate
+Lyme Disease,Moderate,Mumbai,23,29,35,10,85.5985538148997,17,27.9,No,No,Low
+Thyroid Disorder,Moderate,Leh,19,69,20,5,124.00457177600603,39,27.5,No,No,Low
+Anemia,Low,Manali,37,48,16,10,123.81367828371067,60,22.5,Yes,No,Moderate
+Back Pain,Moderate,Aurangabad,32,50,5,1,162.4640524137478,73,17.0,Yes,Yes,High
+Thyroid Disorder,High,Hyderabad,28,39,14,2,57.086439213012376,30,24.0,Yes,No,Low
+Ulcer,Moderate,Ahmedabad,30,62,18,8,167.2562150071771,72,18.6,No,Yes,Moderate
+Sinusitis,High,Udaipur,24,81,34,3,130.70967781412224,67,19.0,Yes,Yes,Critical
+Sleep Apnea,Low,Kolkata,5,39,25,10,107.2500343084471,13,29.9,Yes,No,Low
+Eye Infection,High,Chennai,18,76,17,2,58.492146138868904,61,39.8,Yes,No,Moderate
+Scabies,High,Srinagar,21,95,3,6,100.975657427118,62,38.7,No,Yes,Moderate
+Dehydration,Moderate,Konark,11,80,11,5,136.8140465058599,32,29.6,No,Yes,Low
+Hepatitis,Moderate,Lakshadweep,15,60,5,4,118.2169360316944,5,37.9,No,Yes,Moderate
+Dehydration,Moderate,Delhi,38,73,20,4,135.72858444392566,42,21.3,Yes,No,High
+Altitude Sickness,Low,Manali,27,26,17,2,61.08246693438203,51,36.3,Yes,No,Low
+Heart Disease,Moderate,Goa,7,83,17,4,112.16257819228713,11,33.9,No,Yes,Low
+Epilepsy,High,Chennai,38,88,21,9,92.5692718213245,37,27.0,No,Yes,Moderate
+Ringworm,Moderate,Leh,40,93,30,8,67.80567099191109,28,16.9,Yes,Yes,High
+Heat Stroke,High,Darjeeling,8,81,17,5,78.55461387865276,36,32.3,No,No,Low
+Cholera,Low,Hampi,35,74,2,4,72.14016420233322,47,38.2,Yes,No,Low
+Stroke,High,Hyderabad,36,53,24,7,122.57685499472731,74,26.6,Yes,Yes,Critical
+Neck Pain,High,Tirupati,35,55,25,3,96.20115499518661,56,33.3,Yes,No,Moderate
+Deep Vein Thrombosis,High,Ooty,37,83,2,3,85.79322453176228,43,35.4,Yes,No,Moderate
+Motion Sickness,High,Shimla,34,62,7,2,52.77171039941776,52,37.2,Yes,Yes,Moderate
+Malaria,High,Mumbai,36,25,15,9,130.02797458948243,62,34.6,No,No,Low
+Bronchitis,High,Haridwar,11,22,10,6,77.1323612288004,45,23.6,No,Yes,Low
+Ulcer,Low,Konark,31,60,6,1,105.84441945689682,73,16.2,No,Yes,Low
+Stroke,High,Chennai,28,71,33,11,69.76091394688706,57,18.8,Yes,Yes,Moderate
+Lyme Disease,High,Ahmedabad,13,71,5,11,170.36442927213253,17,26.2,No,Yes,Moderate
+Heart Disease,High,Khajuraho,10,38,33,6,108.46806152329343,23,36.6,No,Yes,Moderate
+Asthma,Low,Manali,19,38,35,6,132.26121863112658,40,25.6,No,No,Moderate
+Thyroid Disorder,High,Hyderabad,37,50,12,1,131.29400191852932,63,36.4,Yes,No,Moderate
+Thyroid Disorder,High,Lakshadweep,8,22,25,4,133.61487112104174,59,28.3,No,Yes,Low
+Pancreatitis,Moderate,Pune,28,85,10,6,86.36794030381299,53,34.0,Yes,No,Low
+Psoriasis,High,Rishikesh,37,92,21,2,41.848901256000985,71,16.7,Yes,Yes,Critical
+Osteoporosis,Low,Hampi,33,44,2,11,73.34296613188653,44,22.7,No,No,Low
+Asthma,Moderate,Hyderabad,16,29,34,10,82.69683757236399,16,33.9,Yes,Yes,Moderate
+Fungal Infection,Moderate,Pune,13,64,30,7,144.01275902299625,21,28.2,No,No,Low
+Rabies,Moderate,Tawang,12,41,20,10,134.61161936793448,28,30.1,Yes,Yes,Moderate
+Liver Disease,Low,Darjeeling,25,38,2,7,146.41665769388135,30,32.2,No,Yes,Low
+Osteoporosis,Low,Bhopal,22,49,2,11,158.51463578453848,37,37.6,Yes,Yes,Moderate
+Arthritis,Moderate,Dwarka,32,43,13,7,78.76905768620368,46,22.1,Yes,Yes,Low
+Heat Exhaustion,Moderate,Mumbai,12,26,10,7,158.03687761420036,73,30.2,No,Yes,Moderate
+Sleep Apnea,Moderate,Leh,23,88,15,6,20.0,9,29.9,No,Yes,Moderate
+Back Pain,High,Chennai,6,25,7,2,24.724615476563514,54,18.2,Yes,No,Moderate
+Heat Exhaustion,Moderate,Munnar,10,93,4,5,66.91385459479213,64,33.1,Yes,Yes,Moderate
+Ringworm,High,Bhopal,21,33,28,2,107.31686152005337,37,21.2,Yes,Yes,Moderate
+Chickenpox,High,Mysore,15,94,22,9,85.30802165594709,39,34.8,Yes,No,Moderate
+Food Poisoning,Moderate,Khajuraho,15,72,12,11,103.10826865272226,63,21.0,No,Yes,Low
+Liver Disease,Moderate,Chennai,19,33,5,5,107.24985675727481,19,34.1,Yes,No,Low
+Rabies,Low,Mysore,25,26,23,8,99.44507700652424,38,33.9,No,Yes,Low
+Insomnia,Low,Shimla,33,57,18,4,81.72705764018012,19,24.6,Yes,Yes,Low
+Vitamin B12 Deficiency,Low,Konark,42,82,33,6,135.8924424685981,28,20.5,No,Yes,Low
+Fungal Infection,High,Pune,33,36,16,4,161.72863263979855,55,37.7,Yes,Yes,High
+Leprosy,Low,Gangtok,6,48,20,5,25.909706132327656,24,26.2,No,No,Low
+Neck Pain,Low,Tawang,23,44,5,1,106.8693704566752,52,29.3,Yes,Yes,Low
+Bronchitis,High,Hampi,6,73,33,11,123.37121338193933,74,32.3,Yes,Yes,Critical
+Food Poisoning,Moderate,Hyderabad,5,53,29,11,189.23224818666097,9,16.4,No,No,Moderate
+Food Poisoning,Moderate,Kanyakumari,18,75,6,7,68.40957592061342,75,19.8,No,No,Low
+Fungal Infection,Moderate,Goa,29,74,12,10,86.50875873749766,69,26.6,No,No,Low
+Anxiety,Moderate,Ahmedabad,36,74,31,5,91.0216747503991,71,23.1,No,Yes,High
+Motion Sickness,High,Agra,45,24,25,5,153.8503213188339,33,30.2,No,No,Moderate
+Varicose Veins,High,Puri,36,88,3,10,114.3785545762687,13,28.7,No,Yes,Moderate
+Arthritis,High,Kaziranga,11,93,9,1,96.73615962272766,66,26.1,No,Yes,Moderate
+Fungal Infection,Low,Leh,24,85,4,1,100.97854815939287,75,30.2,Yes,Yes,Moderate
+Cholera,Moderate,Hampi,6,57,35,6,119.56300298586471,6,29.4,No,No,Low
+Chickenpox,Low,Tirupati,36,46,33,6,163.10632773104766,10,27.3,No,Yes,Moderate
+Ulcer,Moderate,Kolkata,45,53,27,4,114.77854163959296,45,23.8,No,Yes,Moderate
+Eye Infection,Moderate,Jaipur,37,23,18,5,61.831108063721715,25,17.4,Yes,No,Moderate
+Insomnia,Low,Tirupati,31,31,28,8,116.67233114576979,32,18.8,Yes,No,Low
+Malaria,Moderate,Puri,40,66,14,7,45.838269036055976,55,20.5,No,No,Low
+Food Poisoning,High,Mysore,41,35,15,11,72.42667892949763,23,28.0,Yes,Yes,High
+Leprosy,Moderate,Goa,8,37,17,8,89.1877363248785,41,22.4,Yes,Yes,Low
+Gastritis,Low,Kolkata,11,63,21,2,88.71591426992016,20,28.7,Yes,Yes,Low
+Tuberculosis,Moderate,Goa,27,48,33,3,47.16379734858903,52,39.2,No,Yes,Low
+Scabies,High,Bhopal,21,60,7,6,87.54877488109848,12,23.9,Yes,Yes,Moderate
+Bronchitis,Low,Chennai,9,42,5,4,56.241731947279206,6,17.6,Yes,No,Low
+Stroke,High,Konark,42,82,33,6,87.3446450870641,32,33.6,Yes,No,Moderate
+Vitamin B12 Deficiency,Low,Goa,37,72,5,3,148.90159844438384,73,32.4,No,No,Moderate
+Thyroid Disorder,High,Hyderabad,36,41,13,6,129.75356601169585,8,16.2,No,Yes,Moderate
+Osteoporosis,High,Delhi,9,48,26,2,146.51604687598518,69,27.3,No,No,Low
+Heat Stroke,Moderate,Aurangabad,27,42,11,9,76.2905707993971,68,18.5,No,Yes,Low
+Cold,Low,Kochi,25,59,14,7,99.05805587902809,73,20.3,No,No,Low
+Varicose Veins,Low,Rishikesh,13,72,6,8,90.1223875141058,53,24.9,Yes,No,Low
+Bronchial Infection,Moderate,Srinagar,19,28,24,9,99.54942272029176,22,36.0,Yes,No,Low
+Gastritis,Low,Goa,21,46,18,9,64.03612380862492,30,38.7,No,Yes,Low
+Arthritis,High,Kolkata,11,92,21,2,128.50997986562265,79,29.3,No,Yes,Moderate
+Heat Exhaustion,Low,Ooty,27,42,29,7,102.51872711918433,42,19.7,No,No,Low
+Skin Infection,High,Kolkata,35,38,25,4,38.44898691580327,8,27.4,No,No,Moderate
+Sinusitis,High,Munnar,9,87,17,2,136.0051585712495,62,26.4,Yes,No,High
+Motion Sickness,Moderate,Somnath,12,84,13,10,88.14136675859157,15,18.1,Yes,Yes,Moderate
+Hypertension,Low,Manali,30,29,35,2,70.85530559547438,79,37.7,Yes,No,Low
+Deep Vein Thrombosis,Moderate,Goa,33,53,3,8,66.9194900595385,11,35.3,No,No,Low
+Sleep Apnea,Low,Rishikesh,22,43,16,10,108.65264290627493,58,16.5,No,No,Low
+Insomnia,High,Hampi,44,39,26,3,131.49445982224552,13,24.1,No,Yes,Moderate
+Vitamin D Deficiency,Low,Haridwar,24,81,6,4,81.01079577920491,41,36.1,No,No,Low
+Scabies,Moderate,Mumbai,9,69,14,7,170.12508516401627,51,28.8,Yes,No,Moderate
+Dehydration,High,Kanyakumari,36,60,27,1,22.841169098928148,61,26.2,Yes,No,High
+Epilepsy,Moderate,Jaipur,43,82,32,1,56.68704651467331,32,30.3,Yes,Yes,Moderate
+Dehydration,High,Shillong,25,75,6,7,124.58880562922151,6,18.6,No,Yes,Moderate
+Bronchial Infection,Low,Kaziranga,13,32,7,4,171.2504296719536,34,18.6,Yes,Yes,High
+Motion Sickness,Low,Konark,17,34,11,1,108.6736096830675,15,34.1,Yes,Yes,Low
+Tuberculosis,High,Pune,33,36,16,4,163.3500205844311,43,35.6,No,Yes,Moderate
+Vitamin D Deficiency,Moderate,Amritsar,10,58,21,2,148.51986439326933,74,35.9,Yes,Yes,Moderate
+Insomnia,Low,Khajuraho,44,27,10,7,77.83758478435291,62,25.7,No,Yes,Low
+Hypertension,High,Khajuraho,8,37,16,5,103.06156519695975,70,34.4,Yes,Yes,Moderate
+Back Pain,Moderate,Jaipur,41,45,23,8,146.7881728933527,79,19.5,Yes,No,High
+Kidney Disease,Low,Jim Corbett,23,69,19,2,122.82942244372775,74,21.0,Yes,Yes,Moderate
+Polio,High,Chennai,20,61,27,8,125.40051898896459,16,28.7,Yes,Yes,Moderate
+Fungal Infection,Low,Andaman,23,77,28,8,91.05779563912076,50,25.5,No,No,Low
+Asthma,Moderate,Jim Corbett,39,78,7,2,112.36345856267016,65,28.7,Yes,No,High
+Vitamin B12 Deficiency,High,Mysore,5,40,12,8,126.09282049794982,61,25.4,Yes,Yes,Moderate
+Ear Infection,High,Bhopal,27,85,19,5,71.37600821658329,62,32.8,Yes,No,Moderate
+Neck Pain,Low,Agra,27,37,15,4,94.43886869076354,56,24.7,Yes,Yes,Low
+HIV/AIDS,Low,Mumbai,35,80,21,5,165.24400236444507,50,20.5,Yes,No,Moderate
+Pancreatitis,Low,Lakshadweep,42,91,19,3,158.31654830503894,38,16.7,No,No,Moderate
+Gastritis,High,Kanyakumari,11,32,19,3,72.27869785348305,56,24.3,No,Yes,Low
+Deep Vein Thrombosis,Moderate,Pune,45,76,5,3,112.0009416400039,78,31.1,No,No,High
+Rabies,Moderate,Varanasi,40,62,7,1,98.68599462400647,27,19.4,No,No,Low
+Asthma,High,Jaipur,28,52,21,11,64.01837537760858,33,35.9,No,Yes,Moderate
+Migraine,Moderate,Goa,27,70,29,2,149.5661052455156,12,32.9,No,Yes,Low
+Bronchitis,High,Aurangabad,38,62,8,7,86.76044230371035,55,26.0,No,Yes,Moderate
+Motion Sickness,Low,Jim Corbett,24,36,22,2,124.7131730323002,16,25.8,Yes,Yes,Low
+Hypertension,Low,Puri,18,77,8,9,130.60715074523128,54,16.7,No,No,Low
+Rabies,Low,Lakshadweep,18,69,9,5,87.3764483951752,57,24.4,Yes,No,Low
+Cancer,Moderate,Darjeeling,34,94,14,5,86.75953598274559,31,32.9,Yes,No,Low
+Rabies,Low,Hyderabad,6,27,5,1,120.95302169799477,75,27.8,Yes,Yes,Moderate
+Dehydration,Moderate,Bhopal,10,43,35,1,99.75185182551294,33,39.9,Yes,No,Low
+Osteoporosis,High,Ooty,31,64,22,11,106.07322397619964,44,27.4,Yes,No,Moderate
+Bronchial Infection,High,Hyderabad,30,34,34,8,54.340318416728806,33,29.4,No,No,Low
+Asthma,High,Jaipur,21,41,32,11,138.4997840176839,27,39.5,No,No,High
+N,,Shimla,41,81,11,5,112.878063847762,22,39.5,Yes,Yes,Moderate
+Cholera,High,Ooty,37,37,15,5,68.20900995491982,20,39.7,Yes,No,Moderate
+Food Poisoning,Low,Darjeeling,11,49,34,8,114.12256237136805,23,26.4,No,Yes,Low
+Ringworm,Low,Agra,13,22,5,4,75.77644374897531,10,33.3,Yes,Yes,Low
+Hepatitis,Low,Ooty,14,39,13,9,113.32121653594074,37,15.1,No,Yes,Low
+Malaria,High,Varanasi,37,21,13,5,87.06437838753904,40,37.6,No,No,Moderate
+HIV/AIDS,High,Aurangabad,40,46,19,11,58.54589124509002,32,35.1,Yes,Yes,High
+Leprosy,High,Srinagar,24,80,34,3,79.15763503898773,63,32.9,Yes,Yes,Moderate
+Heart Disease,High,Mumbai,15,82,34,11,122.89437261495384,22,35.4,No,Yes,Moderate
+Skin Infection,High,Hyderabad,13,73,22,9,103.96315475404079,40,31.3,Yes,Yes,High
+Kidney Disease,High,Goa,17,67,19,4,74.01382248899607,25,30.5,Yes,No,Low
+Astigmatism,Moderate,Lakshadweep,21,35,6,9,20.0,19,25.1,Yes,No,Low
+Parkinson's Disease,Low,Aurangabad,13,67,6,2,105.85110659196076,15,23.8,Yes,No,Low
+Depression,Low,Agra,21,28,8,4,137.16619474353257,26,20.3,No,Yes,Low
+Depression,Low,Tirupati,22,79,22,9,100.61520661697377,26,24.9,Yes,Yes,Low
+Motion Sickness,Moderate,Manali,10,61,29,6,57.3000230332337,9,15.4,Yes,No,Moderate
+Motion Sickness,Low,Srinagar,23,56,25,5,110.86916422316897,57,31.0,No,No,Low
+Psoriasis,High,Kanyakumari,31,66,30,2,88.1255748937743,40,31.0,Yes,Yes,Moderate
+Heat Stroke,Moderate,Darjeeling,16,51,13,2,116.11907085462235,40,19.0,Yes,No,Low
+Tuberculosis,Low,Somnath,18,35,30,10,118.82012604972205,71,36.8,No,Yes,Moderate
+Vitamin D Deficiency,Low,Varanasi,34,72,8,8,99.61384126309922,51,36.1,Yes,No,Low
+Polio,High,Madurai,8,35,5,6,43.668714046260476,68,17.4,No,Yes,Moderate
+Vitamin D Deficiency,Moderate,Tirupati,6,82,24,9,59.80706725299318,73,35.2,No,Yes,Moderate
+Anxiety,High,Jaipur,28,51,16,1,97.15864716137882,52,30.0,No,No,Low
+Eye Infection,Moderate,Jaipur,18,37,27,1,74.86940719717522,19,26.5,No,Yes,Low
+HIV/AIDS,Low,Andaman,6,88,25,2,125.95846435486445,56,25.3,Yes,Yes,Moderate
+Parkinson's Disease,Low,Tawang,34,72,8,10,54.07201645524928,11,35.1,No,Yes,Moderate
+Allergy,Low,Delhi,19,64,34,9,114.51045541178546,9,28.8,No,Yes,Moderate
+Malaria,Low,Goa,28,28,21,7,88.03716162656298,50,35.6,No,Yes,Low
+Pancreatitis,High,Dwarka,14,50,27,4,98.98395464959643,41,24.4,Yes,Yes,Moderate
+Fungal Infection,High,Agra,8,25,18,8,139.96292898288507,39,32.3,No,No,Low
+Anxiety,Moderate,Tawang,19,68,19,10,146.84028825932666,44,29.0,Yes,Yes,Moderate
+Typhoid,Low,Madurai,37,86,13,8,82.88100796469374,26,18.6,Yes,Yes,Moderate
+Vitamin B12 Deficiency,Low,Aurangabad,12,90,3,10,134.20025070808708,29,19.6,No,Yes,Low
+Anxiety,Moderate,Kolkata,13,29,2,2,74.08760305833617,80,26.4,No,Yes,Low
+Thyroid Disorder,Low,Pune,5,87,14,2,100.56566156624429,63,33.4,Yes,Yes,Moderate
+Migraine,Low,Hampi,20,31,23,6,142.94524866657719,45,26.8,Yes,Yes,Low
+Bronchial Infection,High,Somnath,35,69,19,5,122.86724628379942,22,32.7,Yes,Yes,Critical
+Measles,High,Aurangabad,6,64,27,9,164.0143432415993,49,25.2,Yes,Yes,Moderate
+Cholera,High,Aurangabad,27,42,11,9,55.32880500039393,36,22.8,No,No,Low
+Celiac Disease,Moderate,Agra,23,93,32,9,131.64067937521725,18,39.8,No,Yes,Moderate
+Insomnia,Low,Lakshadweep,29,37,17,8,90.44050495651624,52,30.2,Yes,Yes,Low
+Pancreatitis,Low,Bhopal,40,40,27,5,122.11935740758413,36,35.1,No,No,Low
+Anemia,High,Varanasi,16,89,18,1,84.17163587349454,39,31.8,Yes,Yes,Moderate
+Cholera,Moderate,Amritsar,24,28,33,8,98.12699635026046,48,25.7,Yes,No,Low
+Pneumonia,Moderate,Ooty,12,60,24,6,190.1148249161694,23,20.2,Yes,Yes,Moderate
+Lyme Disease,Low,Leh,11,93,16,3,155.19127561391272,59,32.3,Yes,Yes,Moderate
+Heart Disease,Moderate,Goa,11,73,10,7,133.10146972531584,9,33.1,No,No,Low
+Scabies,High,Konark,44,47,21,3,86.49522446297475,68,26.6,No,No,High
+Hepatitis,Moderate,Kochi,41,80,31,10,105.66064734033601,56,24.2,No,No,Moderate
+Depression,High,Mumbai,19,67,14,11,84.33002938789245,35,23.7,Yes,No,Moderate
+Skin Infection,High,Darjeeling,41,86,18,1,20.0,43,37.5,No,Yes,High
+Ringworm,High,Tirupati,28,34,18,9,165.16948604531206,67,24.5,No,Yes,Moderate
+Ear Infection,High,Rishikesh,32,75,19,3,130.5844815056514,39,18.1,Yes,No,Moderate
+Arthritis,High,Kolkata,26,85,27,2,129.89105604995268,48,35.1,No,Yes,Moderate
+Fungal Infection,High,Ahmedabad,9,76,12,7,125.27950413012991,13,36.9,No,No,Low
+Vitamin B12 Deficiency,Moderate,Khajuraho,35,72,17,6,142.5688029603349,72,15.3,No,Yes,High
+Altitude Sickness,Low,Hampi,15,54,26,4,85.91368201707289,19,28.7,Yes,Yes,Low
+Epilepsy,High,Hyderabad,31,50,9,5,83.61529871262415,12,37.9,No,Yes,Moderate
+Food Poisoning,Moderate,Dwarka,7,89,24,8,150.20933089060927,16,36.9,No,No,Moderate
+Fungal Infection,High,Shillong,43,74,18,7,95.93306581777217,31,20.0,No,Yes,Moderate
+Rabies,High,Kolkata,8,95,8,1,85.83201811938721,5,28.9,No,Yes,Moderate
+Malaria,Low,Hyderabad,28,44,2,9,76.49706564812419,73,27.9,Yes,No,Low
+Measles,Low,Varanasi,18,49,25,4,39.27224324196232,15,22.3,No,Yes,Low
+Pneumonia,Moderate,Tirupati,29,93,6,2,122.12132400862941,33,39.1,Yes,No,Moderate
+Sinusitis,Low,Darjeeling,19,94,32,10,105.43581678024091,20,22.7,No,No,Moderate
+Dehydration,High,Mumbai,40,67,28,9,81.75254439436097,10,18.5,Yes,Yes,Critical
+Thyroid Disorder,High,Agra,13,91,9,3,62.71620222060427,60,25.4,Yes,Yes,Moderate
+IBS,High,Jaipur,29,68,35,2,101.57057627730792,71,38.0,No,Yes,Moderate
+Thyroid Disorder,Low,Amritsar,39,65,35,1,143.52539653237767,42,35.5,No,No,Low
+Back Pain,Low,Konark,8,80,29,5,114.5789382932618,10,25.8,No,Yes,Low
+Psoriasis,Low,Dwarka,30,80,3,9,107.87336641357967,51,27.6,Yes,Yes,Moderate
+Asthma,Moderate,Shimla,30,25,11,10,152.4833947406956,47,23.3,No,No,High
+Cholera,High,Gangtok,13,25,3,8,80.64018807041411,40,18.2,No,Yes,Moderate
+Ulcer,Moderate,Madurai,14,39,9,10,143.3523603024662,5,16.3,No,Yes,Moderate
+Anemia,Low,Kolkata,26,23,19,5,128.00948494074424,62,33.9,No,No,Low
+Parkinson's Disease,Moderate,Mysore,5,54,13,8,132.51798390299132,9,17.6,Yes,No,Moderate
+Kidney Disease,Low,Hampi,45,63,4,11,53.010592386477256,27,31.1,Yes,No,High
+Anemia,Moderate,Goa,24,89,30,3,188.1857978016245,24,27.9,Yes,Yes,Moderate
+Deep Vein Thrombosis,Low,Goa,40,24,8,5,94.66478624796314,71,17.9,No,Yes,High
+Insomnia,Moderate,Kaziranga,21,89,12,4,95.11642920083179,27,35.9,No,Yes,Moderate
+Arthritis,Low,Leh,24,25,30,6,84.0315569755615,53,32.4,No,No,Low
+Heat Stroke,High,Bhopal,11,75,9,9,126.15787983182227,13,28.5,Yes,Yes,Moderate
+Allergy,Low,Andaman,5,68,28,5,99.15792559581267,58,28.5,No,Yes,Low
+Meningitis,Low,Khajuraho,18,57,30,10,118.54171403027938,71,29.9,No,No,Low
+Celiac Disease,Low,Bhopal,22,85,16,9,81.08713718463598,47,28.8,Yes,Yes,Low
+Depression,Moderate,Konark,8,62,35,3,112.47582440651021,29,24.3,Yes,No,Low
+Kidney Disease,Low,Hampi,16,82,32,3,59.23152349602243,31,33.4,No,Yes,Low
+Ringworm,Moderate,Varanasi,27,46,34,9,139.40169514530422,23,30.2,No,No,Low
+Sinusitis,Low,Mumbai,25,82,29,5,93.38905596259715,57,37.4,No,No,Low
+Deep Vein Thrombosis,High,Kolkata,31,21,31,2,40.497693383741804,72,26.8,No,Yes,Moderate
+Polio,High,Agra,12,31,25,9,130.78623037847487,43,31.7,Yes,Yes,Moderate
+Obesity,High,Tirupati,13,58,4,6,52.41068102047008,51,33.5,No,No,Low
+Sleep Apnea,Low,Madurai,16,88,12,3,143.3027780065063,9,36.5,Yes,No,Moderate
+Anxiety,Low,Goa,41,35,15,2,115.18125943884723,45,28.0,No,No,Low
+Motion Sickness,High,Srinagar,43,61,8,7,77.89798680819106,15,30.5,No,Yes,Moderate
+Sleep Apnea,Low,Varanasi,43,25,31,7,160.95760555824035,55,26.8,Yes,Yes,Moderate
+Astigmatism,High,Agra,26,36,16,4,117.24455247857139,19,39.3,No,Yes,Moderate
+COVID-19,Moderate,Jaipur,18,73,4,8,84.96053768837692,52,21.5,No,Yes,Low
+Hepatitis,Moderate,Kaziranga,41,83,17,9,97.87075998751622,58,28.7,No,Yes,Moderate
+Altitude Sickness,Moderate,Srinagar,10,42,16,4,125.73487840011168,76,37.9,Yes,No,Moderate
+Osteoporosis,Low,Madurai,15,28,28,3,77.60523354808882,45,24.5,Yes,No,Low
+Insomnia,Low,Kochi,5,95,10,11,24.038994814605815,15,29.6,Yes,No,Low
+COVID-19,Moderate,Rishikesh,17,83,32,10,156.5908558371315,24,28.7,No,Yes,Moderate
+Gallstones,High,Gangtok,35,57,11,10,123.86918356391297,24,19.9,Yes,No,Moderate
+Stroke,High,Srinagar,13,74,8,3,130.54961070662637,16,33.1,Yes,Yes,Moderate
+Heat Stroke,Moderate,Chennai,30,60,24,1,78.14296576935203,35,24.9,No,Yes,Low
+Hypertension,Moderate,Shillong,5,27,6,5,65.67897150621982,29,33.9,Yes,Yes,Low
+Neck Pain,Moderate,Chennai,31,95,30,6,49.58338916682897,55,29.9,No,No,Low
+Stroke,Low,Somnath,21,65,8,1,112.16308882622339,24,34.1,No,Yes,Low
+Measles,Low,Mumbai,37,32,3,6,132.71027441892406,33,16.2,Yes,Yes,Moderate
+Arthritis,Low,Shimla,8,63,25,8,115.32548043197426,7,18.7,Yes,Yes,Moderate
+Neck Pain,Low,Darjeeling,25,30,33,10,134.5528363237677,38,24.6,No,No,Low
+Dehydration,Low,Hyderabad,28,93,21,9,68.79120364521131,35,26.5,Yes,Yes,Low
+Lyme Disease,Moderate,Hyderabad,16,62,32,11,68.42896815327467,77,28.6,Yes,No,Moderate
+Malaria,Moderate,Khajuraho,12,53,12,3,121.96336259381437,64,22.6,No,No,Low
+COVID-19,Low,Kanyakumari,11,32,19,3,87.40770366348549,18,25.0,No,Yes,Low
+Polio,High,Leh,24,74,35,2,106.55930348288182,69,30.2,No,Yes,Moderate
+Pancreatitis,Low,Srinagar,24,46,30,7,42.40811501344558,30,29.0,Yes,Yes,Low
+Sleep Apnea,High,Madurai,35,67,7,8,105.62360561640132,62,37.2,No,No,Moderate
+Parkinson's Disease,Low,Agra,21,67,33,3,117.97389828660329,51,24.1,No,Yes,Low
+Obesity,High,Munnar,18,41,24,3,72.29116244862044,6,36.7,Yes,Yes,Moderate
+Eye Infection,Moderate,Srinagar,14,29,2,2,59.64360381684797,59,32.1,Yes,Yes,Low
+Rabies,Moderate,Kanyakumari,12,72,24,1,81.67367700356837,47,17.2,No,No,Low
+Polio,Low,Jaipur,42,39,5,9,146.93777371308005,31,28.8,Yes,Yes,Moderate
+Scabies,Low,Puri,17,40,9,10,140.50601479323228,63,38.2,No,No,Low
+Stroke,High,Jaipur,44,41,30,3,119.67997139861376,15,28.6,No,No,Moderate
+Insomnia,High,Hyderabad,11,90,16,2,99.90600382910898,64,17.8,No,Yes,Moderate
+Flu,Low,Hampi,25,56,25,9,97.18330969522773,69,15.6,No,Yes,Low
+Scabies,High,Udaipur,36,37,17,2,91.3774741215171,57,15.7,Yes,No,Moderate
+Ulcer,High,Chennai,29,38,21,11,77.80217221467956,22,16.6,No,Yes,Moderate
+Vitamin B12 Deficiency,Moderate,Lakshadweep,20,26,5,9,132.2623576273611,32,35.4,No,Yes,Low
+Sleep Apnea,Low,Kaziranga,13,30,34,8,94.02238097780372,16,23.7,No,No,Low
+Bronchitis,High,Madurai,42,26,6,8,110.25123558021976,34,35.0,No,No,High
+Fungal Infection,Moderate,Ooty,12,90,31,9,138.7695866995424,40,22.8,Yes,No,Moderate
+Vitamin B12 Deficiency,Low,Delhi,7,87,2,6,52.87769949942566,33,20.2,No,Yes,Low
+Heat Exhaustion,High,Kolkata,11,93,26,8,81.97907678381871,31,33.6,Yes,No,Moderate
+Pneumonia,Moderate,Konark,19,42,30,10,65.85138041141585,67,26.1,Yes,Yes,Moderate
+Parkinson's Disease,Moderate,Tirupati,31,31,28,8,123.7095915305566,33,30.0,No,Yes,Low
+Appendicitis,High,Udaipur,8,55,5,9,78.82268830786956,21,18.4,Yes,Yes,Moderate
+Food Poisoning,Low,Varanasi,15,72,7,2,130.18377973149765,11,26.6,Yes,Yes,Moderate
+Ringworm,Low,Kochi,22,54,20,5,96.82674694640575,36,15.3,Yes,Yes,Low
+COVID-19,Low,Pune,42,21,12,5,60.79057569240615,28,21.6,Yes,Yes,Moderate
+Flu,Moderate,Varanasi,23,57,8,5,49.61491808041559,59,36.6,No,No,Low
+Celiac Disease,Moderate,Amritsar,29,33,29,9,117.81775329671001,35,15.9,Yes,No,Moderate
+Alzheimer's,Low,Andaman,8,54,20,2,76.24891133560992,26,16.4,No,No,Low
+Ear Infection,Moderate,Jim Corbett,29,49,5,3,118.7335531134051,52,23.9,No,Yes,Low
+Neck Pain,High,Lakshadweep,8,22,25,4,104.23676850473234,79,29.5,Yes,Yes,Moderate
+Vitamin B12 Deficiency,Moderate,Amritsar,42,40,5,6,116.46015764239198,5,35.5,Yes,Yes,High
+Astigmatism,Low,Munnar,30,53,23,4,81.53192011928829,17,19.9,Yes,Yes,Low
+Dehydration,Low,Darjeeling,45,77,6,6,123.54709659204958,66,27.3,Yes,Yes,High
+Sleep Apnea,Low,Udaipur,15,85,27,6,88.94746842360684,59,18.4,No,Yes,Low
+Hepatitis,Moderate,Udaipur,41,46,13,8,51.55336258855186,46,15.2,Yes,No,Moderate
+Flu,High,Gangtok,31,86,33,2,148.6584812531373,17,29.6,Yes,No,Moderate
+Bronchitis,Moderate,Kochi,19,66,33,5,75.48192632286728,46,20.6,No,No,Low
+Ulcer,High,Kolkata,17,26,29,5,131.26795000075967,65,29.7,No,No,Low
+Heart Disease,Low,Delhi,38,85,2,11,113.04769839251328,39,16.5,No,No,Moderate
+Meningitis,High,Delhi,30,71,6,9,107.98457227542049,17,39.5,No,No,Low
+Typhoid,High,Kolkata,33,38,10,5,118.88791442859713,39,23.4,Yes,No,Moderate
+Rabies,Moderate,Jaipur,28,34,21,11,73.6814294513925,76,36.4,Yes,No,Moderate
+Depression,Moderate,Aurangabad,24,44,8,2,111.9562716654997,46,30.3,Yes,No,Low
+Back Pain,Low,Jim Corbett,42,28,2,9,76.9144013556217,76,20.1,No,No,Moderate
+Hypertension,Moderate,Leh,34,27,4,3,91.59243844919652,44,19.5,Yes,Yes,Low
+Depression,Moderate,Haridwar,32,43,28,6,59.62910389373376,70,35.3,No,No,Low
+Flu,Low,Jaipur,34,86,34,2,110.54257113546728,32,29.7,Yes,Yes,Moderate
+Appendicitis,High,Chennai,37,52,5,7,169.0597705492745,32,29.9,No,Yes,Moderate
+Back Pain,Moderate,Aurangabad,6,73,14,6,74.64515131585443,57,32.3,No,No,Low
+Rabies,High,Goa,9,94,26,11,57.42539552644839,22,39.9,No,No,Moderate
+Dehydration,Low,Somnath,38,70,27,7,151.28801610666522,51,36.4,Yes,Yes,High
+Sinusitis,Moderate,Tirupati,34,47,35,6,56.475791899785946,43,16.2,No,No,Low
+Measles,High,Dwarka,36,80,16,3,139.50154704523442,26,27.0,Yes,Yes,Moderate
+Lyme Disease,High,Varanasi,40,64,31,7,91.09509986902938,38,17.3,No,No,Moderate
+Migraine,Low,Agra,31,67,20,4,94.1181759508637,68,39.7,Yes,No,Low
+Bronchial Infection,High,Jaipur,19,86,15,3,128.14162571977363,57,19.9,Yes,Yes,Critical
+Heart Disease,Low,Bhopal,36,61,32,5,50.03937436671844,36,34.9,No,No,Low
+Tuberculosis,High,Agra,17,55,19,3,99.74520450604525,62,32.1,No,No,Low
+Back Pain,Moderate,Agra,8,95,3,11,107.68301632503928,49,31.5,Yes,Yes,Moderate
+Pneumonia,High,Chennai,33,62,20,8,82.02577230263731,15,17.9,Yes,No,Moderate
+Migraine,Moderate,Andaman,26,74,27,3,98.42815113602877,74,16.5,Yes,No,Moderate
+Kidney Disease,Moderate,Kaziranga,39,30,31,3,58.13184722185309,60,32.8,No,Yes,Moderate
+Flu,High,Lakshadweep,5,92,17,7,93.1947384712226,61,18.6,Yes,Yes,Moderate
+Bronchitis,High,Kanyakumari,12,72,24,1,135.4602862260293,52,30.5,No,No,Moderate
+Altitude Sickness,Moderate,Delhi,8,24,13,11,75.49739283432302,16,30.2,No,Yes,Low
+Sinusitis,Moderate,Delhi,27,82,9,11,120.28605679287355,71,22.0,Yes,No,High
+Scabies,Low,Mumbai,25,22,16,5,137.65119049482757,66,16.1,No,No,Low
+Anxiety,Low,Aurangabad,14,38,35,11,59.42333865449973,36,24.3,Yes,Yes,Low
+Skin Infection,Moderate,Kaziranga,13,55,3,2,120.77131512645798,62,26.0,No,Yes,Low
+Cancer,Low,Chennai,26,95,15,7,64.7486815628479,19,18.0,No,Yes,Low
+Hepatitis,Low,Somnath,26,42,20,6,103.96222590476769,33,18.8,No,Yes,Low
+Hepatitis,High,Jim Corbett,33,51,10,5,68.78644315754292,23,32.4,No,Yes,Low
+Alzheimer's,High,Varanasi,24,89,19,10,37.47624836174165,48,27.7,Yes,No,Moderate
+Bronchial Infection,Moderate,Gangtok,21,75,8,7,33.59693423809263,37,32.2,Yes,No,Low
+Rabies,High,Rishikesh,11,80,2,7,72.46884771971848,67,24.6,Yes,Yes,Moderate
+Back Pain,Low,Ooty,30,71,7,5,150.50257948833732,56,29.1,Yes,No,Low
+Dehydration,High,Amritsar,35,60,28,3,66.99987342861489,70,15.1,Yes,Yes,Critical
+Meningitis,High,Khajuraho,25,26,19,5,99.94144162521754,36,39.2,No,Yes,Moderate
+Tuberculosis,Low,Somnath,38,43,26,6,135.4920447887967,70,33.7,No,No,Moderate
+Altitude Sickness,Low,Cherrapunji,34,54,12,10,91.29587155327472,34,15.0,No,Yes,Low
+Food Poisoning,High,Hyderabad,31,50,9,5,99.70247842303625,66,28.1,No,Yes,Moderate
+Depression,High,Somnath,38,43,26,6,127.53304123508094,67,36.2,No,Yes,High
+Cholera,Low,Leh,41,32,15,1,90.0329316102439,25,25.6,No,Yes,Low
+Vitamin D Deficiency,High,Varanasi,27,75,20,4,74.17200574487926,13,39.0,No,No,Low
+Measles,Moderate,Ahmedabad,30,34,5,7,170.20924199776118,15,37.0,Yes,Yes,Moderate
+Skin Infection,High,Kolkata,11,63,21,2,62.03488018816116,14,16.8,No,Yes,Moderate
+Anemia,Moderate,Amritsar,20,59,22,10,59.4668777877054,41,31.2,Yes,Yes,Moderate
+Astigmatism,Low,Somnath,24,81,17,10,50.058937649097274,71,24.4,No,Yes,Low
+Measles,High,Kolkata,44,66,14,8,74.87060904373253,39,24.2,No,No,Moderate
+Thyroid Disorder,Low,Agra,40,74,9,9,30.308755570028808,42,16.3,No,Yes,Moderate
+Back Pain,Low,Gangtok,15,94,4,8,101.05495981103222,69,17.0,No,No,Low
+Dehydration,Moderate,Jaipur,12,25,23,7,118.7215700844952,76,33.6,Yes,No,Moderate
+Allergy,Low,Hyderabad,16,89,33,1,58.59009223062724,27,27.7,Yes,Yes,Low
+Varicose Veins,Moderate,Aurangabad,21,25,29,9,95.5036590554201,38,17.1,No,Yes,Low
+Vitamin B12 Deficiency,Moderate,Hampi,15,38,33,6,164.2517170036146,19,29.4,Yes,No,Moderate
+Heat Exhaustion,High,Goa,26,68,32,4,61.088681673731664,27,32.2,No,No,Low
+Flu,High,Jaipur,12,75,32,6,104.17755945354703,29,36.2,Yes,No,Moderate
+Allergy,High,Andaman,13,70,6,8,179.13516697690923,9,16.5,Yes,Yes,Critical
+Heart Disease,Low,Goa,19,51,5,5,73.78416423584149,77,17.3,Yes,Yes,Moderate
+HIV/AIDS,Moderate,Madurai,25,74,16,8,102.56629262712573,56,15.6,No,No,Low
+Astigmatism,Moderate,Haridwar,21,57,35,3,79.64207453630843,65,25.3,Yes,Yes,Low
+Back Pain,Moderate,Srinagar,38,41,4,7,97.41344147060295,10,39.9,No,No,Moderate
+Cancer,Moderate,Goa,25,63,14,1,125.32508264386233,40,37.5,Yes,Yes,Moderate
+Cold,High,Andaman,13,50,7,11,74.16159497937748,71,36.9,Yes,No,Moderate
+Parkinson's Disease,Low,Hampi,15,38,33,6,102.93468930169308,40,15.8,No,Yes,Low
+Flu,Low,Agra,7,29,25,6,20.0,58,27.0,No,Yes,Low
+Cholera,High,Lakshadweep,28,37,12,4,109.95455210650648,22,16.1,No,Yes,Moderate
